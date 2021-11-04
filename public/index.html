@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   </head>
   <body>
     <noscript>
@@ -13,5 +15,40 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <div id="header">
+      <div id="branding">
+        <div id="site-title">
+          <a href="http://www.cse.chalmers.se/~aikmitr/index.html"
+          title="CYBERSECURITY" rel="home"><span>Cybersecurity
+          Group</span></a>
+        </div>
+      </div><!-- #branding -->
+
+      <div id="menu-primary">
+        <div class="menu"></div>
+
+        <ul>
+          <li id="menu-item-140"><a href=
+          "file:///Users/aikmitr/Documents/www/index.html">HOME</a></li>
+
+          <li id="menu-item-141"><a href=
+          "file:///Users/aikmitr/Documents/www/Group.html">PEOPLE</a></li>
+
+          <li id="menu-item-142"><a href=
+          "http://www.cse.chalmers.se/~aikmitr/Publications.html">RESEARCH</a></li>
+
+          <li id="menu-item-143"><a href=
+          "file:///Users/aikmitr/Documents/www/PublicationsNew.html">PUBLICATIONS</a></li>
+
+          <li id="menu-item-144"><a href=
+          "http://www.cse.chalmers.se/~aikmitr/Group.html">COURSES</a></li>
+
+          <li id="menu-item-145"><a href=
+          "http://www.cse.chalmers.se/~aikmitr/Projects.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div><!-- #menu-primary .menu-container -->
+
+    <div id="site-description"><img src="files/group.jpg" align="middle" width="700">
   </body>
 </html>
