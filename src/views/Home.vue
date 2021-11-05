@@ -40,12 +40,12 @@
                 >
                 <v-row class="pt-1">
                     <v-col cols="3">
-                    <strong>5pm</strong>
+                    <strong>May 2021</strong>
                     </v-col>
                     <v-col>
-                    <strong>New Icon</strong>
+                    <strong>St. Gallen Symposium 2021!</strong>
                     <div class="text-caption">
-                        Mobile App
+                        Katerina has participated at the St. Gallen Symposium 2021 and talked about benefits and risks of our digital identity.
                     </div>
                     </v-col>
                 </v-row>
@@ -57,57 +57,43 @@
                 >
                 <v-row class="pt-1">
                     <v-col cols="3">
-                    <strong>3-4pm</strong>
+                    <strong>April 2021</strong>
                     </v-col>
                     <v-col>
-                    <strong>Design Stand Up</strong>
+                    <strong>NIVA accepted to ACISP 2021!</strong>
                     <div class="text-caption mb-2">
-                        Hangouts
+                        Carlo's paper on verifiable and privacy-preserving aggregation for learning has been accepted at ACISP 2021. Stay tuned for the paper!
                     </div>
-                    <v-avatar>
-                        <v-img
-                            src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairFrida&accessoriesType=Kurt&hairColor=Red&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Skull&eyeType=Wink&eyebrowType=RaisedExcitedNatural&mouthType=Disbelief&skinColor=Brown"
-                        ></v-img>
-                    </v-avatar>
-                    <v-avatar>
-                        <v-img
-                        src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairFrizzle&accessoriesType=Prescription02&hairColor=Black&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=BlazerSweater&clotheColor=Black&eyeType=Default&eyebrowType=FlatNatural&mouthType=Default&skinColor=Tanned"
-                        ></v-img>
-                    </v-avatar>
-                    <v-avatar>
-                        <v-img
-                        src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairMiaWallace&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Surprised&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Pale"
-                        ></v-img>
-                    </v-avatar>
                     </v-col>
                 </v-row>
                 </v-timeline-item>
                 <v-timeline-item
-                    color="pink"
-                    small
+                    color="pink" small
                 >
                 <v-row class="pt-1">
                     <v-col cols="3">
-                        <strong>12pm</strong>
+                        <strong>Feb. 2021</strong>
                     </v-col>
                     <v-col>
-                        <strong>Lunch break</strong>
+                        <strong>Paper accepted at IET Information Security</strong>
+                        <div class="text-caption mb-2">
+                           Our paper on verifiable homomorphic signicryption has been accepted at the IET Information Security Journal.
+                        </div>
                     </v-col>
                 </v-row>
                 </v-timeline-item>
-
                 <v-timeline-item
                     color="teal lighten-3"
                     small
                 >
                 <v-row class="pt-1">
                     <v-col cols="3">
-                    <strong>9-11am</strong>
+                    <strong>Feb. 2021</strong>
                     </v-col>
                     <v-col>
-                    <strong>Finish Home Screen</strong>
+                    <strong>WiSec 2021</strong>
                     <div class="text-caption">
-                        Web App
+                        Katerina serves in the PC committee of ACM WiSEC 2021.
                     </div>
                     </v-col>
                 </v-row>
@@ -117,4 +103,6 @@
         </v-card>
     </div>
 </template>
+
+
 

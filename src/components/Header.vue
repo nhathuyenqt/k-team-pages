@@ -7,12 +7,5 @@
 
 <v-app-bar-title>Cybersecurity Group</v-app-bar-title>
 <template v-slot:extension>
-<v-tabs align-with-title>
-    <v-tab>Home</v-tab>
-    <v-tab>People</v-tab>
-    <v-tab>Research</v-tab>
-    <v-tab>Publications</v-tab>
-    <v-tab>Courses</v-tab>
-    <v-tab>Contact</v-tab>
-</v-tabs>
+
 </template>
