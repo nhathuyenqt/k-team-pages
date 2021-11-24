@@ -1,9 +1,3 @@
-.card{
-  background-color: #bada55;
-  flex-grow:1;
-  margin: 10px;
-  height: 50px;
-}
 
 <template>
     <div>
@@ -109,7 +103,8 @@
             </v-card-text>
         </v-card>
         
-        <v-card class="mx-auto" margin="10px" >
+
+        <v-card class="mx-auto mt-16" margin="10px" >
             <v-card-title >
             
                 <h3 class="text-h6 font-weight-light text-left grow">
@@ -152,8 +147,6 @@
         </v-card>
     </div>
 </template>
-
-
 
 
 
