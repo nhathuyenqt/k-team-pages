@@ -1,17 +1,39 @@
 <template>
+    <v-list three-line>
+        <template v-for="(item, index) in items">
+            <v-subheader
+            v-if="item.header"
+            :key="item.header"
+            v-text="item.header"
+            ></v-subheader>
 
-  <v-row class="d-flex justify-start">
-    <v-col v-for="(item) in items" cols="12" md="3" sm="4" :key="item.id" align='center'>
-      <v-list-item-avatar size="128">
-          <v-img :src="'https://cyber-api.hellven.io' + item.avatar[0].url"></v-img>
-      </v-list-item-avatar>
-      <v-list-item-content>
-        <v-list-item-title v-html="item.fullname"></v-list-item-title>
-        <v-list-item-subtitle v-html="item.job"></v-list-item-subtitle>
-      </v-list-item-content>
-    </v-col>
-  </v-row>
+            <v-divider
+            v-else-if="item.divider"
+            :key="index"
+            :inset="item.inset"
+            ></v-divider>
+
+            <v-list-item
+            v-else
+            :key="item.title"
+            >   
+                <v-col cols="2">
+                    <v-img :src="item.avatar"></v-img>
+                </v-col>
+                <v-col>
+                    <v-list-item-content>
+                        <v-list-item-title v-html="item.authors"></v-list-item-title>
+                        <v-list-item-title v-html="item.title" class="font-weight-medium"></v-list-item-title>
+                        <v-list-item-subtitle v-html="item.subtitle"></v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-col>
+            
+            </v-list-item>
+        </template>
+    </v-list>
+
 </template>
+
 <script>
   import axios from 'axios';
   
