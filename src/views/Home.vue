@@ -3,7 +3,7 @@
     <div>
         <v-card class="mx-auto" margin="10px" >
             <v-card-text>
-                <div>Word of the Day</div>
+                <h3 class="text-h6 font-weight-light text-left grow">Word of the Day</h3>
                 
                 <div class="text--primary">
                     The Cybersecurity Group (CyberSec) is a research group at the School of Computer Science at the University of St. Gallen led by Prof. Katerina Mitrokotsa, while a branch is located at Chalmers University of Technology.
@@ -131,7 +131,7 @@
                     :key="item.title"
                     >   
                         <v-col cols="2">
-                            <v-img :src="item.avatar"></v-img>
+                            <iframe height="120px" width="90px" src="https://pdfs.semanticscholar.org/2b50/666b70d6be41241b0022cb1cd433990431e0.pdf?_ga=2.121339912.188177493.1637853499-797079521.1632241706" allow="autoplay"></iframe>
                         </v-col>
                         <v-col>
                             <v-list-item-content>
@@ -156,7 +156,7 @@
       items: [
         // { header: 'Recent publications' },
         {
-          avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
+          avatar: 'https://www.mdpi.com/2410-387X/4/4/37/pdf',
           authors: 'B. Liang, G. Banegas, A. Mitrokotsa',
           title: 'Statically Aggregate Verifiable Random Functions and Application to E-Lottery.',
           subtitle: 'Cryptograhy (MDPI), 4(4), 37, doi:10.3390/cryptography4040037, 2020.',

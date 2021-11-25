@@ -8,6 +8,8 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify'
+import mdiVue from 'mdi-vue/v3'
+// import * as mdijs from '@mdi/js'
 
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
@@ -18,6 +20,11 @@ Vue.use(VueGoogleMaps, {
         libraries: 'places'
     },
 });
+Vue.use(mdiVue, {
+  icons: {
+    iconfont: 'mdi'
+ }
+})
 
 new Vue({
   vuetify,

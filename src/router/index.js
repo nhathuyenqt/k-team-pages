@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import People from '../views/People.vue'
 import Contact from '../views/Contact.vue'
 import Publications from '../views/Publications.vue'
+import Research from '../views/Research.vue'
 import Vue from "vue";
 import Router from "vue-router";
 
@@ -21,7 +22,8 @@ const routes = [
     },
     {
         path: '/research',
-        name: 'Research'
+        name: 'Research',
+        component: Research
     },
     {
         path: '/contact',
@@ -29,7 +31,7 @@ const routes = [
         component: Contact
     },
     {
-        path: '/publication',
+        path: '/publications',
         name: 'Publications',
         component: Publications
     }

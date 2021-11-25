@@ -18,6 +18,7 @@
 <script>
 
 export default {
+
   name: 'App',
 
   components: {
@@ -29,3 +30,25 @@ export default {
   }),
 };
 </script>
+<style>
+$headings: (
+    'h1': (
+        'font-family': 'Calibri',
+        'size': 60px,
+        'line-height': 60px,
+        'weight': 400
+    ),
+    'h2': (
+        'font': 'Ariel',
+        'size': 48px,
+        'line-height': 48px,
+        'weight': 400
+    ),
+)
+
+.underline { 
+  text-decoration: underline;
+  font-family: "Helvetica Neue";
+  color: #555; }
+
+</style>
