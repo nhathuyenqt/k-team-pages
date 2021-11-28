@@ -11,7 +11,7 @@
                             <div class="d-flex my-3">
                                 <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
                             </div>
-                            <p class="paragraphClass" v-html="item.Abstract"></p>
+                            <div v-html="item.Abstract"> </div>              
                         </v-list-item-content>  
                     </v-col>
                 </v-list-item>
@@ -44,7 +44,7 @@
           axios.get('https://cyber-api.hellven.io/researchs').then(response => {
             this.items = response.data;
             response.data.forEach(i=>{
-              console.log(i);
+              console.log(i.Abstract);
                 })
           });        
         }

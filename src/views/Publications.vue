@@ -94,6 +94,8 @@
     export default {
         data: () => ({
             paper: 'paper-text-outline',
+            journals : [],
+            text : "",
 
         items: [
         {

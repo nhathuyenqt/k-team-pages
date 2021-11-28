@@ -3,11 +3,14 @@
   <v-row class="d-flex justify-start mx-auto my-4" style = "max-width:1100px">
     <v-col v-for="(item) in items" cols="12" md="3" sm="4" style = "max-height:200px" :key="item.id" align='center'>
       <v-list-item-avatar size="128">
-          <v-img :src="'https://cyber-api.hellven.io' + item.avatar[0].url"></v-img>
+  
+            <v-img @click="goToWeb(item)" :src="'https://cyber-api.hellven.io' + item.avatar[0].url"></v-img>
+
       </v-list-item-avatar>
       <v-list-item-content>
         <v-list-item-title v-html="item.fullname"></v-list-item-title>
         <v-list-item-subtitle v-html="item.job"></v-list-item-subtitle>
+        
       </v-list-item-content>
     </v-col>
   </v-row>
@@ -60,11 +63,20 @@
     },
 
     methods: {
+        goToWeb(item){
+          if (item.websiteLink){
+            console.log("web");
+            // let route = this.$router.resolve({ path: item.websiteLink });
+            // window.open(route.href);
+            window.open(item.websiteLink);
+          }  
+        },
         getMembers() {
           axios.get('https://cyber-api.hellven.io/members').then(response => {
             this.items = response.data;
             response.data.forEach(i=>{
-              console.log(i.avatar[0].url);
+              if (i.websiteLink)
+              console.log(i.websiteLink);
                 })
           });        
         }
