@@ -9,9 +9,9 @@
                     <v-col>
                         <v-list-item-content class="my-3">
                             <div class="d-flex my-3">
-                                <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
+                                <v-list-item-title v-html="item.Title" style ="color:#0f275c" class="font-weight-medium"></v-list-item-title>
                             </div>
-                            <div v-html="item.Abstract"> </div>              
+                            <div class="text--primary" v-html="item.Abstract" > </div>              
                         </v-list-item-content>  
                     </v-col>
                 </v-list-item>

@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div> 
+        <Dialog :content="content" :show="dialogA"/>
         <v-card class="mx-auto" margin="10px" >
             <v-card-text>
             <v-btn-toggle class="align-center" align-center
@@ -27,9 +28,10 @@
         </div> 
         <v-card class="mx-auto">
             <a name="Journals">
-                <h3 class="text-h6 font-weight-light text-left grow">
+            
+                <h2 class="text-h6 font-weight-medium text-left grow py-3 routerLink" style ="color:#0f275c">
                     Journals
-                </h3>
+                </h2>
             </a>
             
             <v-card-text class="py-0">
@@ -37,16 +39,22 @@
                     <template v-for="(item) in journals">
                         <v-list-item :key="item.id">   
                             <v-list-item-content>
-                                <div class="d-flex">
-                                    <v-list-item-title v-html="item.name" class="font-weight-medium"></v-list-item-title>
-                                    <v-btn icon :href="`item.paperLink`">
-                                        <v-icon>mdi-home</v-icon>
-                                        <span>Paper</span>
+                                <div class="d-flex justify-start pr-3" >
+                                    <v-list-item-title v-html="item.name" class="font-weight-medium" ></v-list-item-title>
                                     
-                                    </v-btn>
+                                    <a class="routerLink d-flex pa-4" :href="item.paperLink">
+                                        <span><NoteTextOutline class="pr-2" width="'40'"/></span>
+                                        Paper
+                                    </a>
+
+                                    <a class="routerLink d-flex pa-4" @click="openAbstract(item)">
+                                        <span><BookOpenVariant  width="'40'"/></span>
+                                        Abstract
+                                    </a>
+                                    
                                 </div>
-                                <v-list-item-title v-html="item.data.authors"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.paperLink"></v-list-item-subtitle>
+                                <v-list-item-title v-html="item.data.authors" style="white-space: normal"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
@@ -56,7 +64,7 @@
         </v-card>
         <v-card class="mx-auto">
             <a name="Workshops">
-                <h3 class="text-h6 font-weight-light text-left grow">
+                 <h3 class="text-h6 font-weight-medium text-left grow py-3 routerLink" style ="color:#0f275c">
                     Workshops
                 </h3>
             </a>
@@ -68,71 +76,66 @@
                             <v-list-item-content>
                                 <div class="d-flex">
                                     <v-list-item-title v-html="item.name" class="font-weight-medium"></v-list-item-title>
-                                    <v-btn icon :href="`item.paperLink`">
-                                        <v-icon>mdi-home</v-icon>
-                                        <span>Paper</span>
+                                    <a class="routerLink d-flex pa-4" :href="item.paperLink">
+                                        <span><NoteTextOutline class="pr-2" width="'40'"/></span>
+                                        Papers
+                                    </a>
                                     
-                                    </v-btn>
+                                    <a class="routerLink d-flex pa-4" @click="openAbstract(item)">
+                                        <span><BookOpenVariant  width="'40'"/></span>
+                                        Abstract
+                                    </a>
                                 </div>
+                                
                                 <v-list-item-title v-html="item.data.authors"></v-list-item-title>
                                 <v-list-item-subtitle v-html="item.paperLink"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
+                        
                     </template>
                 </v-list>
             </v-card-text>
         </v-card>
+        
     </div>
 </template>
 
 
 <script>
-
+    import NoteTextOutline from 'vue-material-design-icons/NoteTextOutline.vue'
+    import BookOpenVariant from 'vue-material-design-icons/BookOpenVariant.vue'
+    import Dialog from '../components/Dialog.vue'
     import axios from 'axios';
   
     export default {
+        components:{
+            NoteTextOutline,
+            BookOpenVariant,
+            Dialog
+        }, 
         data: () => ({
             paper: 'paper-text-outline',
             journals : [],
             text : "",
-
-        items: [
-        {
-          avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
-          name: 'Katerina Mitrokotsa',
-          title: 'Full Professor of Cyber Security',
-          subtitle: `<span class="text--primary">Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?`,
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
-          name: 'Eriane Breu',
-          title: 'Administration, Chair of Cyber Security',
-          subtitle: `<span class="text--primary">to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend.`,
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
-          name: 'Hiraku Morita',
-          title: 'Postdoctoral researcher',
-          subtitle: '<span class="text--primary">Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?',
-        },
-        { divider: true, inset: true },
-        // {
-        //   avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
-        //   name: 'Johannes Ernst',
-        //   title: 'Doctoral Researcher',
-        //   subtitle: '<span class="text--primary">Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?',
-        // },
-        // { divider: true, inset: true },
-        // {
-        //   avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
-        //   name: 'Adrien Pasquereau',
-        //   title: 'Doctoral Researcher',
-        //   subtitle: '<span class="text--primary">Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.',
-        // },
-      ],
+            content :"",
+            dialogA: false,
+            items: [
+                
+                    // {
+                    //   avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
+                    //   name: 'Johannes Ernst',
+                    //   title: 'Doctoral Researcher',
+                    //   subtitle: '<span class="text--primary">Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?',
+                    // },
+                    // { divider: true, inset: true },
+                    // {
+                    //   avatar: 'https://live.staticflickr.com/5647/31013406835_b24ccab596.jpg',
+                    //   name: 'Adrien Pasquereau',
+                    //   title: 'Doctoral Researcher',
+                    //   subtitle: '<span class="text--primary">Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.',
+                    // },
+      ]     ,
     }),
     beforeMount() {
         this.getPublications();
@@ -142,8 +145,17 @@
         getPublications() {
           axios.get('https://cyber-api.hellven.io/publications').then(response => {
             this.journals = response.data;
-           
+            response.data.forEach(i=>{
+                console.log(i.data.abstract)})
           });        
+        },
+        openSource(item){
+            window.open(item.paperLink);
+        },
+        openAbstract(item){
+            this.dialogA = true;
+            this.content = item.data.abstract;
+            //console.log(item)
         }
     }
 

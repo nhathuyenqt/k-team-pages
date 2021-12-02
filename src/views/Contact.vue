@@ -1,32 +1,50 @@
 <template>
  
   <div id="contact">
-    <h2 class="text-h6 font-weight-light text-left grow">Contact us</h2>
+    <h6 class="font-weight-regulartext-left grow my-5">Contact us</h6>
     <GoogleMap />
-    <h2 class="text-h6 font-weight-light text-left grow my-2" >How to find us</h2>
-    <div id="c62" class="fsc-contentelement fsc-contentfooter fsc-layout-0  fsc-contentfooter-layout-0">
-	
-          <ul class="list-outset-icons">
-            <span class="outset-icon"> 
-                    <v-icon
-                        large
-                        color="green darken-2">
-                        mdi-domain
-                    </v-icon>
-                  </span>Cyber Security Team <br />
-                School of Computer Science<br />
-                Office 64-316<br>
-                Torstrasse 25<br>       
-                9000 St. Gallen<br> 
-            <a href="tel:+41 71 224 78 61">
-                  <span class="outset-icon"> 
-                    <v-icon
-                        large
-                        color="green darken-2">
-                        mdi-domain
-                    </v-icon>
-                  </span>+41 71 224 78 61</a>
-        </ul>
+    <h6 class="font-weight-regular text-left grow my-2" >How to find us</h6>
+    <div >
+          <v-list dense >
+            <v-list-item dense>
+              <v-list-item-icon>
+                <v-icon color="indigo">
+                  mdi-domain
+                </v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Cyber Security Team</v-list-item-title>
+                <v-list-item-subtitle>School of Computer Science</v-list-item-subtitle>
+                <v-list-item-subtitle>Office 64-316</v-list-item-subtitle>
+                <v-list-item-subtitle>Torstrasse 25</v-list-item-subtitle>
+                <v-list-item-subtitle> 9000 St. Gallen</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item dense>
+              <v-list-item-icon>
+                <v-icon color="indigo">
+                  mdi-email
+                </v-icon>
+              </v-list-item-icon>
+
+              <v-list-item-title style="font-family:'Roboto' size:'13px'">
+                <a class="routerLink" href="mailto:'cyber@gmail.com'">cyber_team_email(at)gmail.com</a>
+              </v-list-item-title>
+            </v-list-item>
+
+            <v-list-item >
+              <v-list-item-icon>
+                <v-icon color="indigo">
+                  mdi-phone
+                </v-icon>
+              </v-list-item-icon>
+              <v-list-item-title style="font-family:'Roboto' font-size:'0.8em'">
+                <a class="routerLink"  href="tel:+41 71 224 78 61">+41 71 224 78 61</a>
+              </v-list-item-title>
+            </v-list-item>
+             
+          </v-list>
     </div>
   </div>  
 </template>

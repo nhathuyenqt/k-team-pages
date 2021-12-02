@@ -22,7 +22,7 @@ export default {
   name: 'App',
 
   components: {
-
+    
   },
 
   data: () => ({
@@ -46,9 +46,31 @@ $headings: (
     ),
 )
 
+.name {
+  font-family: "Helvetica Neue";
+  size: '16px';
+  color: #555;
+}
+
 .underline { 
   text-decoration: underline;
   font-family: "Helvetica Neue";
   color: #555; }
 
+.routerLink{
+     text-decoration: none;
+ }
+.wrap-text {
+   -webkit-line-clamp: unset !important;
+}
+
+.outlined {
+                  border: 1px solid currentColor;
+                  border-radius:50%;
+                  height: 56px;
+                  width: 56px;
+}
+.v-list-item {
+  flex: 0;
+}
 </style>
