@@ -1,11 +1,11 @@
 <template>
-  <div class="pa-10">
+  <div class="pa-2 pl-5 center" >
    
     <br>
     <GmapMap
       :center='center'
       :zoom='15'
-      style='width:100%;  height: 400px; '
+      style='width:90%;  height: 400px; '
     >
     <GmapMarker
         :position="loc"

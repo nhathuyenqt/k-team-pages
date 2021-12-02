@@ -31,21 +31,6 @@ export default {
 };
 </script>
 <style>
-$headings: (
-    'h1': (
-        'font-family': 'Calibri',
-        'size': 60px,
-        'line-height': 60px,
-        'weight': 400
-    ),
-    'h2': (
-        'font': 'Ariel',
-        'size': 48px,
-        'line-height': 48px,
-        'weight': 400
-    ),
-)
-
 .name {
   font-family: "Helvetica Neue";
   size: '16px';
@@ -63,7 +48,6 @@ $headings: (
 .wrap-text {
    -webkit-line-clamp: unset !important;
 }
-
 .outlined {
     border: 1px solid currentColor;
     border-radius:50%;
