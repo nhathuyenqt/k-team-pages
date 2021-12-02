@@ -65,12 +65,17 @@ $headings: (
 }
 
 .outlined {
-                  border: 1px solid currentColor;
-                  border-radius:50%;
-                  height: 56px;
-                  width: 56px;
+    border: 1px solid currentColor;
+    border-radius:50%;
+    height: 56px;
+    width: 56px;
 }
 .v-list-item {
   flex: 0;
+}
+.titlePaper{
+  color: #1a0dab;
+  font-family: "Arial";
+  font-size: 14px;
 }
 </style>

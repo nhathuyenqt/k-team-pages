@@ -108,40 +108,26 @@
             <v-card-title >
             
                 <h3 class="text-h6 font-weight-light text-left grow">
-                    Recent publications
+                   RECENT PUBLICATIONS
                 </h3>
                
             </v-card-title>
             <v-list three-line>
-                <template v-for="(item, index) in items">
-                    <v-subheader
-                    v-if="item.header"
-                    :key="item.header"
-                    v-text="item.header"
-                    ></v-subheader>
-
-                    <v-divider
-                    v-else-if="item.divider"
-                    :key="index"
-                    :inset="item.inset"
-                    ></v-divider>
-
-                    <v-list-item
-                    v-else
-                    :key="item.title"
-                    >   
-                        <v-col cols="2">
-                            <iframe height="120px" width="90px" src="https://pdfs.semanticscholar.org/2b50/666b70d6be41241b0022cb1cd433990431e0.pdf?_ga=2.121339912.188177493.1637853499-797079521.1632241706" allow="autoplay"></iframe>
-                        </v-col>
-                        <v-col>
+                <template v-for="(item) in recentPub">
+                <v-list-item :key="item.id">
+                    <v-col cols="2">
+                            <iframe height="120px" width="90px" :src="item.paperLink" allow="autoplay"></iframe>
+                    </v-col>
+                    <v-col>
                             <v-list-item-content>
-                                <v-list-item-title v-html="item.authors"></v-list-item-title>
-                                <v-list-item-title v-html="item.title" class="font-weight-medium"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.subtitle"></v-list-item-subtitle>
+                            
+                                <v-list-item-title v-html="item.name" class="titlePaper" ></v-list-item-title>
+                                    
+                                <v-list-item-subtitle v-html="item.data.authors" style="white-space: normal"></v-list-item-subtitle>
+                                <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
                             </v-list-item-content>
-                        </v-col>
-                    
-                    </v-list-item>
+                    </v-col>  
+                </v-list-item>
                 </template>
             </v-list>
         </v-card>
@@ -151,46 +137,26 @@
 
 
 <script>
+import axios from 'axios';
   export default {
     data: () => ({
-      items: [
-        // { header: 'Recent publications' },
-        {
-          avatar: 'https://www.mdpi.com/2410-387X/4/4/37/pdf',
-          authors: 'B. Liang, G. Banegas, A. Mitrokotsa',
-          title: 'Statically Aggregate Verifiable Random Functions and Application to E-Lottery.',
-          subtitle: 'Cryptograhy (MDPI), 4(4), 37, doi:10.3390/cryptography4040037, 2020.',
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg',
-          authors: 'G. Tsaloli, G. Banegas, A. Mitrokotsa',
-          title: 'Practical and Provably Secure Distributed Aggregation: Verifiable Additive Homomorphic Secret Sharing.',
-          subtitle:'Cryptograhy (MDPI), 4(3), 25, doi:10.3390/cryptography4030025, 2020.',
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
-          authors: 'D. Fiore, A. Mitrokotsa, L. Nizzardo, E. Pagnin.',
-          title: 'Multi-key homomorphic authenticators.',
-          subtitle: 'IET Information Security, doi:10.1049/iet-ifs.2018.5341, 2019. ðŸ† [ IET Premium Award ] (Best paper published within the last two years in the IET Information Security Journal)',
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://cdn.vuetifyjs.com/images/lists/4.jpg',
-          authors: 'B. Liang, A. Mitrokotsa.',
-          title: 'Robust Distributed Pseudorandom Functions for mNP Access Structures.',
-          subtitle:'In Proceedings of International Conference on Information Security (ISC 2019), pp 107-126, LNCS, New York, US, Sept. 2019. ðŸ† Best Paper Award!',
-        },
-        { divider: true, inset: true },
-        {
-          avatar: 'https://cdn.vuetifyjs.com/images/lists/5.jpg',
-          authors: 'C. Brunetta, B. Liang, A. Mitrokotsa.',
-          title: 'Code-Based Zero Knowledge PRF Arguments.',
-          subtitle: 'In Proceedings of International Conference on Information Security (ISC 2019), pp 171-189, LNCS, New York, US, Sept. 2019.',
-        },
-      ],
+        recentPub:[],
+       
     }),
+
+    beforeMount() {
+        this.getPublications();
+    },
+
+    methods: {
+        getPublications() {
+          axios.get('https://cyber-api.hellven.io/publications').then(response => {
+            this.journals = response.data;
+            this.recentPub = response.data.slice(response.data.length-10,(response.data.length))
+            console.log(this.recentPub)
+          }); 
+        }
+    }
   }
 </script>
 
