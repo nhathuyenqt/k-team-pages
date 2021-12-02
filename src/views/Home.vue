@@ -1,9 +1,9 @@
 
 <template>
     <div>
-        <v-card class="mx-auto" margin="10px" >
+        <v-card class="mx-auto" margin="10px"  color="#E8f5ef">
             <v-card-text>
-                <h3 class="text-h6 font-weight-light text-left grow">Word of the Day</h3>
+                <h3 class="text-h5 font-weight-regular text-left grow " style="color:#00783a" >Word of the Day</h3>
                 
                 <div class="text--primary">
                     The Cybersecurity Group (CyberSec) is a research group at the School of Computer Science at the University of St. Gallen led by Prof. Katerina Mitrokotsa, while a branch is located at Chalmers University of Technology.
@@ -25,7 +25,7 @@
         >
             <v-card-title >
             
-                <h3 class="text-h6 font-weight-light text-left grow subtitle">
+                <h3 class="text-h6 font-weight-regular  text-left grow subtitle">
                     NEWS
                 </h3>
                
@@ -107,7 +107,7 @@
         <v-card class="mx-auto mt-16" margin="10px" >
             <v-card-title >
             
-                <h3 class="text-h6 font-weight-light text-left grow">
+                <h3 class="text-h6 font-weight-regular  text-left grow subtitle">
                    RECENT PUBLICATIONS
                 </h3>
                
