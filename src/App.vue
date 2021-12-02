@@ -58,9 +58,9 @@ export default {
   flex: 0;
 }
 .titlePaper{
-  color: #1a0dab;
+  color: #0e0ca6;
   font-family: "Arial";
-  font-size: 14px;
+  font-size: 18px;
 }
 .menu{
   color: #1a0dab;

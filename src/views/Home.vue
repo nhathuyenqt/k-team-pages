@@ -104,7 +104,7 @@
         </v-card>
         
 
-        <v-card class="mx-auto mt-16" margin="10px" >
+        <v-card class="mx-auto mt-16" margin="5px" >
             <v-card-title >
             
                 <h3 class="text-h6 font-weight-regular  text-left grow subtitle">
@@ -115,17 +115,16 @@
             <v-list three-line>
                 <template v-for="(item) in recentPub">
                 <v-list-item :key="item.id">
-                    <v-col cols="2">
+                    <v-col cols="2" class="pl-10">
                             <iframe height="120px" width="90px" :src="item.paperLink" allow="autoplay"></iframe>
                     </v-col>
                     <v-col>
-                            <v-list-item-content>
-                            
-                                <v-list-item-title v-html="item.name" class="titlePaper" ></v-list-item-title>
-                                    
-                                <v-list-item-subtitle v-html="item.data.authors" style="white-space: normal"></v-list-item-subtitle>
-                                <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
-                            </v-list-item-content>
+                        <v-list-item-content>
+                        
+                            <p v-html="item.name" class="titlePaper" ></p>
+                            <v-list-item-subtitle v-html="item.data.authors" style="white-space: normal"></v-list-item-subtitle>
+                            <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
+                        </v-list-item-content>
                     </v-col>  
                 </v-list-item>
                 </template>

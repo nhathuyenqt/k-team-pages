@@ -9,7 +9,7 @@
                     <v-col>
                         <v-list-item-content class="my-3">
                             <div class="d-flex my-3">
-                                <p v-html="item.Title" style ="color:#0f275c font-size:'15px'" class="font-weight-medium text-h6"></p>
+                                <p v-html="item.Title" style ="color:#0f275c font-size:'15px'" class="font-weight-medium text-h"></p>
                             </div>
                             <div class="text--primary" v-html="item.Abstract" > </div>              
                         </v-list-item-content>  
