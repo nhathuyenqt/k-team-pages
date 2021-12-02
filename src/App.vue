@@ -1,14 +1,14 @@
 <template>
   <v-app>
-    <div class="align-center mx-auto">
-          <v-img class="mx-auto my-4"  max-height="60" max-width="200" contain  src="https://upload.wikimedia.org/wikipedia/commons/7/73/University_of_St._Gallen_logo_english.png"></v-img>
-          <v-tabs align-with-title>
-            <v-tab to="/">Home</v-tab>
-            <v-tab to="/people">People</v-tab>
-            <v-tab to="/research">Research</v-tab>
-            <v-tab to="/publications">Publications</v-tab>
-            <v-tab to="/courses">Courses</v-tab>
-            <v-tab to="/contact">Contact</v-tab>
+    <div class="align-center mx-auto full-width">
+          <v-img class="mx-auto my-4"  max-height="70" max-width="300" contain  src="https://upload.wikimedia.org/wikipedia/commons/7/73/University_of_St._Gallen_logo_english.png"></v-img>
+          <v-tabs align-with-title > 
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/">Home</v-tab>
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/people">People</v-tab>
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/research">Research</v-tab>
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/publications">Publications</v-tab>
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/courses">Courses</v-tab>
+            <v-tab class="text-center font-weight-regular justify-center text-h6" to="/contact">Contact</v-tab>
           </v-tabs>
     </div>
     <router-view/>
@@ -61,5 +61,10 @@ export default {
   color: #1a0dab;
   font-family: "Arial";
   font-size: 14px;
+}
+.menu{
+  color: #1a0dab;
+  font-family: "Roboto";
+  font-size: 17px;
 }
 </style>
