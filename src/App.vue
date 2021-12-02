@@ -67,4 +67,14 @@ export default {
   font-family: "Roboto";
   font-size: 17px;
 }
+.subtitle{
+  color: #337ab7;
+
+}
+.avatarimg{
+  border: 4px solid #ddd !important;
+  display: block;
+  background: #ffffff;
+
+}
 </style>

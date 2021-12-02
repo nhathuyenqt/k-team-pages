@@ -25,7 +25,7 @@
         >
             <v-card-title >
             
-                <h3 class="text-h6 font-weight-light text-left grow">
+                <h3 class="text-h6 font-weight-light text-left grow subtitle">
                     NEWS
                 </h3>
                

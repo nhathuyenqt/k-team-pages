@@ -2,9 +2,9 @@
 
   <v-row class="d-flex justify-start mx-auto my-4" style = "max-width:1100px">
     <v-col v-for="(item) in items" cols="12" md="3" sm="4" style = "max-height:200px" :key="item.id" align='center'>
-      <v-list-item-avatar  class="grey lighten-1" style= "fill:'red'" size="128">
+      <v-list-item-avatar  class="avatarimg " size="172">
   
-            <v-img @click="goToWeb(item)" :src="'https://cyber-api.hellven.io' + item.avatar[0].url"></v-img>
+            <v-img class="pa-5" @click="goToWeb(item)" :src="'https://cyber-api.hellven.io' + item.avatar[0].url"></v-img>
 
       </v-list-item-avatar>
       <v-list-item-content>
