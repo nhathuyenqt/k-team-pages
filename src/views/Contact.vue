@@ -1,9 +1,9 @@
 <template>
  
   <div id="contact">
-    <h6 class="font-weight-regulartext-left grow my-5">Contact us</h6>
+    <h6 class="font-weight-regulartext-left grow mt-5">Contact us</h6>
     <GoogleMap />
-    <h6 class="font-weight-regular text-left grow my-2" >How to find us</h6>
+    <h6 class="font-weight-regulartext-left grow mt-5" >How to find us</h6>
     <div >
           <v-list dense >
             <v-list-item dense>

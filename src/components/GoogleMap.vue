@@ -1,12 +1,18 @@
 <template>
-  <div>
+  <div class="pa-10">
    
     <br>
     <GmapMap
       :center='center'
-      :zoom='12'
-      style='width:100%;  height: 400px;'
-    />
+      :zoom='15'
+      style='width:100%;  height: 400px; '
+    >
+    <GmapMarker
+        :position="loc"
+        :label="loc.label"
+        @click="center=loc"
+      />
+    </GmapMap>
   </div>
 </template>
 
@@ -15,7 +21,12 @@ export default {
   name: 'GoogleMap',
   data() {
     return {
-      center: { lat: 45.508, lng: -73.587 },
+      loc: {
+              lat: 47.42775516035286,
+              lng: 9.377250151367777,
+              label: 'Cyber Team'
+          },
+      center: { lat: 47.42775516035286, lng: 9.377250151367777 },
     }
   },
   mounted() {
@@ -30,6 +41,12 @@ export default {
           lng: position.coords.longitude,
         };
       });
+       this.locations = [
+          {
+              lat: 39.7837304,
+              lng: -100.4458825,
+              label: 'United States'
+          }];
     },
     
   },
