@@ -11,7 +11,9 @@
             <v-tab class="text-center font-weight-regular justify-center text-h6" to="/contact">Contact</v-tab>
           </v-tabs>
     </div>
-    <router-view/>
+    <v-container class="page-container">
+      <router-view/>
+    </v-container>
   </v-app>
 </template>
 
@@ -76,5 +78,8 @@ export default {
   display: block;
   background: #ffffff;
 
+}
+.page-container{
+  max-width : 1200px !important;
 }
 </style>
