@@ -107,7 +107,9 @@
     import BookOpenVariant from 'vue-material-design-icons/BookOpenVariant.vue'
     import Dialog from '../components/Dialog.vue'
     import axios from 'axios';
-  
+    import {reverse} from 'lodash';
+ 
+
     export default {
         components:{
             NoteTextOutline,
@@ -144,7 +146,7 @@
     methods: {
         getPublications() {
           axios.get('https://cyber-api.hellven.io/publications').then(response => {
-            this.journals = response.data;
+            this.journals = reverse(response.data);
             response.data.forEach(i=>{
                 console.log(i.data.abstract)})
           });        
