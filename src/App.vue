@@ -1,9 +1,10 @@
 <template>
   <v-app>
     <div class="align-center mx-auto full-width">
-          <v-img class="mx-auto my-4"  max-height="70" max-width="300" contain  src="https://upload.wikimedia.org/wikipedia/commons/7/73/University_of_St._Gallen_logo_english.png"></v-img>
+          <v-img class="mx-auto my-4"  max-height="70" max-width="300" contain  src="https://www.unisg.ch/-/media/d5b9607a44064498a9c920ca5c2cef52.jpg"></v-img>
           <v-tabs align-with-title > 
             <v-tab class="text-center font-weight-regular justify-center text-h6" to="/">Home</v-tab>
+            
             <v-tab class="text-center font-weight-regular justify-center text-h6" to="/people">People</v-tab>
             <v-tab class="text-center font-weight-regular justify-center text-h6" to="/research">Research</v-tab>
             <v-tab class="text-center font-weight-regular justify-center text-h6" to="/publications">Publications</v-tab>
