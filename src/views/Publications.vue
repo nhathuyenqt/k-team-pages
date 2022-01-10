@@ -12,7 +12,7 @@
                 <v-btn value="ws" href="/publications#Workshops">
                    Workshops
                 </v-btn>
-                <v-btn value="bk" href="/publications#Journals">
+                <v-btn value="bk" href="/publications#Books">
                    Books
                 </v-btn>
 
