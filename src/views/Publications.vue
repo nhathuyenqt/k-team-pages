@@ -75,7 +75,7 @@
                         <v-list-item :key="item.id">   
                             <v-list-item-content>
                                 <div class="d-flex">
-                                    <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
+                                    <v-list-item-title v-html="item.title" class="font-weight-medium"></v-list-item-title>
                                     <a class="routerLink d-flex pa-4" :href="item.paperLink">
                                         <span><NoteTextOutline class="pr-2" width="'40'"/></span>
                                         Papers
@@ -87,8 +87,8 @@
                                     </a>
                                 </div>
                                 
-                                <v-list-item-title v-html="item.Authors"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.Subtitle"></v-list-item-subtitle>
+                                <v-list-item-title v-html="item.authors"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.subtitle"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
@@ -111,7 +111,7 @@
                         <v-list-item :key="item.id">   
                             <v-list-item-content>
                                 <div class="d-flex">
-                                    <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
+                                    <v-list-item-title v-html="item.title" class="font-weight-medium"></v-list-item-title>
                                     <a class="routerLink d-flex pa-4" :href="item.paperLink">
                                         <span><NoteTextOutline class="pr-2" width="'40'"/></span>
                                         Papers
@@ -123,8 +123,8 @@
                                     </a>
                                 </div>
                                 
-                                <v-list-item-title v-html="item.Authors"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.Subtitle"></v-list-item-subtitle>
+                                <v-list-item-title v-html="item.authors"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.subtitle"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
@@ -189,13 +189,14 @@
           });      
           axios.get('https://cyber-api.hellven.io/workshops').then(response => {
             this.workshops = reverse(response.data);
-     
+            response.data.forEach(i=>{
+                console.log(i)})
           });   
 
           axios.get('https://cyber-api.hellven.io/books').then(response => {
             this.books = reverse(response.data);
-            response.data.forEach(i=>{
-                console.log(i)})
+            // response.data.forEach(i=>{
+            //     console.log(i)})
           }); 
         },
         openSource(item){
