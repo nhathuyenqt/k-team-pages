@@ -71,11 +71,11 @@
             
             <v-card-text class="py-0">
                 <v-list>
-                    <template v-for="(item) in journals">
+                    <template v-for="(item) in workshops">
                         <v-list-item :key="item.id">   
                             <v-list-item-content>
                                 <div class="d-flex">
-                                    <v-list-item-title v-html="item.name" class="font-weight-medium"></v-list-item-title>
+                                    <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
                                     <a class="routerLink d-flex pa-4" :href="item.paperLink">
                                         <span><NoteTextOutline class="pr-2" width="'40'"/></span>
                                         Papers
@@ -87,8 +87,44 @@
                                     </a>
                                 </div>
                                 
-                                <v-list-item-title v-html="item.data.authors"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.paperLink"></v-list-item-subtitle>
+                                <v-list-item-title v-html="item.Authors"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.Subtitle"></v-list-item-subtitle>
+                            </v-list-item-content>
+                        
+                        </v-list-item>
+                        
+                    </template>
+                </v-list>
+            </v-card-text>
+        </v-card>
+
+        <v-card class="mx-auto">
+            <a name="Books">
+                 <h3 class="text-h6 font-weight-medium text-left grow py-3 routerLink" style ="color:#0f275c">
+                    Books
+                </h3>
+            </a>
+            
+            <v-card-text class="py-0">
+                <v-list>
+                    <template v-for="(item) in books">
+                        <v-list-item :key="item.id">   
+                            <v-list-item-content>
+                                <div class="d-flex">
+                                    <v-list-item-title v-html="item.Title" class="font-weight-medium"></v-list-item-title>
+                                    <a class="routerLink d-flex pa-4" :href="item.paperLink">
+                                        <span><NoteTextOutline class="pr-2" width="'40'"/></span>
+                                        Papers
+                                    </a>
+                                    
+                                    <a class="routerLink d-flex pa-4" @click="openAbstract(item)">
+                                        <span><BookOpenVariant  width="'40'"/></span>
+                                        Abstract
+                                    </a>
+                                </div>
+                                
+                                <v-list-item-title v-html="item.Authors"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.Subtitle"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
@@ -119,6 +155,8 @@
         data: () => ({
             paper: 'paper-text-outline',
             journals : [],
+            workshops : [],
+            books : [],
             text : "",
             content :"",
             dialogA: false,
@@ -147,9 +185,18 @@
         getPublications() {
           axios.get('https://cyber-api.hellven.io/publications').then(response => {
             this.journals = reverse(response.data);
+
+          });      
+          axios.get('https://cyber-api.hellven.io/workshops').then(response => {
+            this.workshops = reverse(response.data);
+     
+          });   
+
+          axios.get('https://cyber-api.hellven.io/books').then(response => {
+            this.books = reverse(response.data);
             response.data.forEach(i=>{
-                console.log(i.data.abstract)})
-          });        
+                console.log(i)})
+          }); 
         },
         openSource(item){
             window.open(item.paperLink);
