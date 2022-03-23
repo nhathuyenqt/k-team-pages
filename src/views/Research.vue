@@ -36,7 +36,7 @@
         paragraphClass: 'underline'
     }),
     beforeMount() {
-        console.log(this.items);
+      //s  console.log(this.items);
        // this.getResearch();
     },
 
@@ -44,10 +44,10 @@
         getResearch() {
           axios.get('https://cyber-api.hellven.io/researchs').then(response => {
             this.items = response.data;
-             console.log(this.items);
-            response.data.forEach(i=>{
-              console.log(i.Abstract);
-                })
+           //  console.log(this.items);
+           // response.data.forEach(i=>{
+             // console.log(i.Abstract);
+            //    })
           });        
         },
         

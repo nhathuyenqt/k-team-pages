@@ -116,6 +116,7 @@
                 <template v-for="(item) in recentPub">
                 <v-list-item :key="item.id">
                     <v-col cols="2" class="pl-10">
+                            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
                             <iframe height="120px" width="90px" :src="item.paperLink" allow="autoplay"></iframe>
                     </v-col>
                     <v-col>
