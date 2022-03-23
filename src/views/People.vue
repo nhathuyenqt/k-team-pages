@@ -39,7 +39,7 @@ import MEMBERS from './members.json';
         getMembers() {
           axios.get('https://cyber-api.hellven.io/members').then(response => {
            // this.items = response.data;
-            console.log(this.items);
+           
             response.data.forEach(i=>{
               if (i.websiteLink)
               console.log(i.websiteLink);
