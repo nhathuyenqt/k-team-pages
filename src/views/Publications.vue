@@ -189,8 +189,8 @@
           });      
           axios.get('https://cyber-api.hellven.io/workshops').then(response => {
             this.workshops = reverse(response.data);
-            response.data.forEach(i=>{
-                console.log(i)})
+            // response.data.forEach(i=>{
+            //     console.log(i)})
           });   
 
           axios.get('https://cyber-api.hellven.io/books').then(response => {
