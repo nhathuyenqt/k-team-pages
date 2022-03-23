@@ -1,0 +1,63 @@
+[
+    {   
+        "fullname": "Katerina Mitrokotsa",
+        "name": "Katerina",
+        "position": "Full Professor in Cyber Security"
+
+    },
+    {
+        "fullname": "Eriane Breu",
+        "name": "Eriane",
+        "position": "Administration"
+    },
+    {   
+        "fullname": "Hiraku Morita",
+        "name": "Hiraku",
+        "position": "Postdoctoral Researcher"
+
+    },
+    {
+        "fullname": "Sayantan Mukherjee",
+        "name": "Say",
+        "position": "Postdoctoral Researcher"
+    },
+    {   
+        "fullname": "Johannes Ernst",
+        "name": "Johannes",
+        "position": "Doctoral Researcher"
+
+    },
+    {
+        "fullname": "Adrien Pasquereau",
+        "name": "Adrien",
+        "position": "Doctoral Researcher"
+    },
+    {   
+        "fullname": "Georgia Tsaloli",
+        "name": "Georgia",
+        "position": "Doctoral Researcher"
+
+    },
+    {
+        "fullname": "Uddipana Dowerah",
+        "name": "Uddi",
+        "position": "Doctoral Researcher"
+    },
+    {   
+        "fullname": "Nan Cheng",
+        "name": "Nan",
+        "position": "Doctoral Researcher"
+
+    },
+    {
+        "fullname": "Jenit Tomy",
+        "name": "Jenit",
+        "position": "Doctoral Researcher"
+    },
+    {   
+        "fullname": "Tran Ngoc Nhat Huyen",
+        "name": "Huyen",
+        "position": "Cryptography Engineer"
+
+    }
+]
