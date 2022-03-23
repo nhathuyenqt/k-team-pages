@@ -181,6 +181,7 @@
       ]     ,
     }),
     beforeMount() {
+        this.journals = PUBLICATIONS.reverse();
         // this.getPublications();
     },
 

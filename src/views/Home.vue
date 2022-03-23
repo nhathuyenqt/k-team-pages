@@ -141,11 +141,11 @@ import PUBLICATIONS from './json/publications.json';
 import axios from 'axios';
   export default {
     data: () => ({
-        recentPub: PUBLICATIONS,
-       
+        recentPub: []
     }),
 
     beforeMount() {
+        this.recentPub = PUBLICATIONS.slice(PUBLICATIONS.length-10,(PUBLICATIONS.length)).reverse();
         // this.getPublications();
     },
 
