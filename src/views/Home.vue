@@ -152,7 +152,7 @@ import axios from 'axios';
         getPublications() {
           axios.get('https://cyber-api.hellven.io/publications').then(response => {
             this.journals = response.data;
-            this.recentPub = response.data.slice(response.data.length-10,(response.data.length))
+            this.recentPub = response.data.slice(response.data.length-10,(response.data.length)).reverse();
            // console.log(this.recentPub)
           }); 
         }
