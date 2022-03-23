@@ -25,7 +25,7 @@
 
 
 <script>
-    import RESEARCHES from './researches.json';
+    import RESEARCHES from './json/researches.json';
     import axios from 'axios';
   
     export default {

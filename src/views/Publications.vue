@@ -139,6 +139,9 @@
 
 
 <script>
+    import PUBLICATIONS from './json/publications.json';
+    import WORKSHOPS from './json/workshops.json';
+    import BOOKS from './json/books.json';
     import NoteTextOutline from 'vue-material-design-icons/NoteTextOutline.vue'
     import BookOpenVariant from 'vue-material-design-icons/BookOpenVariant.vue'
     import Dialog from '../components/Dialog.vue'
@@ -154,9 +157,9 @@
         }, 
         data: () => ({
             paper: 'paper-text-outline',
-            journals : [],
-            workshops : [],
-            books : [],
+            journals : PUBLICATIONS,
+            workshops : WORKSHOPS,
+            books : BOOKS,
             text : "",
             content :"",
             dialogA: false,
@@ -178,7 +181,7 @@
       ]     ,
     }),
     beforeMount() {
-        this.getPublications();
+        // this.getPublications();
     },
 
     methods: {

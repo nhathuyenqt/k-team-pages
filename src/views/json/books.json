@@ -1,0 +1,90 @@
+[
+    {
+        "_id": "61dc9b6a958332513d3c4dbe",
+        "title": "Proceedings of the 3rd International Workshop on RFID Technology - Concepts, Applications, Challenges IWRT 2009",
+        "subtitle": "In conjunction with ICEIS 2009, Milan, Italy, May 2009, INSTICC Press Portugal, ISBN: 978-989-8111-94-4.",
+        "authors": "Q.Z. Sheng, A. Mitrokotsa, S. Zeadally, Z. Maamar",
+        "published_at": "2022-01-10T20:47:40.830Z",
+        "createdAt": "2022-01-10T20:47:38.615Z",
+        "updatedAt": "2022-01-10T20:47:40.850Z",
+        "__v": 0,
+        "id": "61dc9b6a958332513d3c4dbe"
+    },
+    {
+        "_id": "61dc9b83958332513d3c4dbf",
+        "title": "Proceedings of the 4th International Workshop on RFID Technology - Concepts, Applications, Challenges IWRT 2010",
+        "subtitle": "In conjunction with ICEIS 2010, Funchal, Madeira - Portugal, 8 - 12 June 2010, SciTePress Portugal, ISBN:978-989-8425-11-9.",
+        "authors": "Q.Z. Sheng, A. Mitrokotsa, S. Zeadally, Z. Maamar",
+        "published_at": "2022-01-10T20:48:11.956Z",
+        "createdAt": "2022-01-10T20:48:03.755Z",
+        "updatedAt": "2022-01-10T20:48:11.972Z",
+        "__v": 0,
+        "id": "61dc9b83958332513d3c4dbf"
+    },
+    {
+        "_id": "61dc9b99958332513d3c4dc0",
+        "title": "Proceedings of the 1st International ECML/PKDD Workshop on Privacy and Security Issues in Data Mining and Machine Learning (PSDML 2010)",
+        "subtitle": "Vol. 6549, Lecture Notes in Artificial Intelligence, Subseries of LNCS Springer.",
+        "authors": "C. Dimitrakakis, A. Gkoulalas-Divanis, A. Mitrokotsa, V.S. Verykios, Y. Saygin",
+        "published_at": "2022-01-10T20:48:38.511Z",
+        "createdAt": "2022-01-10T20:48:25.834Z",
+        "updatedAt": "2022-01-10T20:48:38.522Z",
+        "__v": 0,
+        "id": "61dc9b99958332513d3c4dc0"
+    },
+    {
+        "_id": "61dc9bb3958332513d3c4dc1",
+        "title": "Progress in Cryptology - Africacrypt 2012, Proceedings of the 5th International Conference on Cryptology in Africa, Ifrane, Morocco",
+        "subtitle": "July 10-12, 2012, Lecture Notes in Computer Science, Vol. 7374.",
+        "authors": "A. Mitrokotsa, S. Vaudenay",
+        "published_at": "2022-01-10T20:48:53.702Z",
+        "createdAt": "2022-01-10T20:48:51.475Z",
+        "updatedAt": "2022-01-10T20:48:53.718Z",
+        "__v": 0,
+        "id": "61dc9bb3958332513d3c4dc1"
+    },
+    {
+        "_id": "61dc9e29958332513d3c4dc2",
+        "title": "Proceedings of the 2014 Workshop on Artificial Intelligence and Security Workshop (AISec 2014)",
+        "subtitle": "Co-located with CCS'14, Scottsdale, AZ, USA, November, 2014, ACM, ISBN 978-1-4503-3151-1.",
+        "authors": "C. Dimitrakakis, A. Mitrokotsa, and B.I.P. Rubinstein",
+        "published_at": "2022-01-10T20:59:24.428Z",
+        "createdAt": "2022-01-10T20:59:21.227Z",
+        "updatedAt": "2022-01-10T20:59:24.460Z",
+        "__v": 0,
+        "id": "61dc9e29958332513d3c4dc2"
+    },
+    {
+        "_id": "61dc9e51958332513d3c4dc3",
+        "title": "Proceedings of the 2015 Workshop on Artificial Intelligence and Security Workshop (AISec 2015)",
+        "subtitle": "Co-located with CCS'15, Denver, Colorado, USA, October, 2015, ACM, ISBN 978-1-4503-3826-4.",
+        "authors": "C. Dimitrakakis, A. Mitrokotsa, A. Sinha",
+        "published_at": "2022-01-10T21:00:03.448Z",
+        "createdAt": "2022-01-10T21:00:01.079Z",
+        "updatedAt": "2022-01-10T21:00:03.496Z",
+        "__v": 0,
+        "id": "61dc9e51958332513d3c4dc3"
+    },
+    {
+        "_id": "61dc9e62958332513d3c4dc4",
+        "title": "Proceedings of the 2016 Workshop on Artificial Intelligence and Security Workshop (AISec 2016)",
+        "subtitle": "Co-located with CCS'16, Vienna, Austria, October, 2016, ACM.",
+        "authors": "D. Freeman, A. Mitrokotsa, A. Sinha",
+        "published_at": "2022-01-10T21:00:21.029Z",
+        "createdAt": "2022-01-10T21:00:18.815Z",
+        "updatedAt": "2022-01-10T21:00:21.048Z",
+        "__v": 0,
+        "id": "61dc9e62958332513d3c4dc4"
+    },
+    {
+        "_id": "61dc9e7b958332513d3c4dc5",
+        "title": "Secure IT Systems, Proceedings of the 22nd Nordic Conference, NordSec 2017",
+        "subtitle": "Tartu, Estonia, November 8–10, 2017, Springer.",
+        "authors": "H. Lipmaa, A. Mitrokotsa, R. Matulevičius",
+        "published_at": "2022-01-10T21:00:52.121Z",
+        "createdAt": "2022-01-10T21:00:43.877Z",
+        "updatedAt": "2022-01-10T21:00:52.133Z",
+        "__v": 0,
+        "id": "61dc9e7b958332513d3c4dc5"
+    }
+]

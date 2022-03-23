@@ -15,7 +15,7 @@
   </v-row>
 </template>
 <script>
-import MEMBERS from './members.json';
+  import MEMBERS from './json/members.json';
   import axios from 'axios';
   
 

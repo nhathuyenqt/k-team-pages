@@ -137,15 +137,16 @@
 
 
 <script>
+import PUBLICATIONS from './json/publications.json';
 import axios from 'axios';
   export default {
     data: () => ({
-        recentPub:[],
+        recentPub: PUBLICATIONS,
        
     }),
 
     beforeMount() {
-        this.getPublications();
+        // this.getPublications();
     },
 
     methods: {
