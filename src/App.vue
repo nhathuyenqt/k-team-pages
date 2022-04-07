@@ -33,7 +33,8 @@ export default {
   }),
 };
 </script>
-<style>
+
+<style scoped>
 .name {
   font-family: "Helvetica Neue";
   size: '16px';
@@ -83,4 +84,83 @@ export default {
 .page-container{
   max-width : 1200px !important;
 }
+
+
+.navbar{
+    background: #f44336;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@368&family=Space+Grotesk:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+/* .h2{
+  'font-family': 'Space Grotesk',
+  'text-align': 'center';
+  padding: 1rem;
+  color:#555555;
+
+} */
+
+
+
+/* $headings: (
+    'h1': (
+        'font-family': 'Calibri',
+        'size': 60px,
+        'line-height': 60px,
+        'weight': 400
+    ),
+    'h2': (
+        'font': 'Ariel',
+        'size': 48px,
+        'line-height': 48px,
+        'weight': 400
+    ),
+) */
+html, body {
+  height: 100%;
+  padding-top: 10px;
+  background: #e6ecf1;
+}
+
+
+#app .r {
+       font-family: 'Rubik', sans-serif;
+     
+    }
+#app .button {
+  margin-bottom: 20px;
+}
+
+
+#app .img {
+  border-radius: 30px;
+}
+
+#app .level-item {
+  padding-left: 10px;
+  color: #00d1b2;
+}
+
+#app input:focus {
+  border-color: #00d1b2;
+} 
+
+
+/* #app .likes {
+  padding: 0 7.5px;
+} */
+
+
+
+
 </style>

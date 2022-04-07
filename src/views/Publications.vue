@@ -9,8 +9,8 @@
                    Journals 
                 </v-btn>
 
-                <v-btn value="ws" href="/publications#Workshops">
-                   Workshops
+                <v-btn value="ws" href="/publications#Conferencepapers">
+                   Conference papers
                 </v-btn>
                 <v-btn value="bk" href="/publications#Books">
                    Books
@@ -29,7 +29,7 @@
         <v-card class="mx-auto">
             <a name="Journals">
             
-                <h2 class="text-h6 font-weight-medium text-left grow py-3 routerLink" style ="color:#0f275c">
+                <h2 class="text-h6 font-weight-medium text-left grow pt-3 routerLink" style ="color:#0f275c">
                     Journals
                 </h2>
             </a>
@@ -53,8 +53,8 @@
                                     </a>
                                     
                                 </div>
-                                <v-list-item-title v-html="item.data.authors" style="white-space: normal"></v-list-item-title>
-                                <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
+                                <v-list-item-title v-html="item.authors" style="white-space: normal"></v-list-item-title>
+                                <v-list-item-subtitle v-html="item.journal" class="text-wrap"></v-list-item-subtitle>
                             </v-list-item-content>
                         
                         </v-list-item>
@@ -63,15 +63,15 @@
             </v-card-text>
         </v-card>
         <v-card class="mx-auto">
-            <a name="Workshops">
-                 <h3 class="text-h6 font-weight-medium text-left grow py-3 routerLink" style ="color:#0f275c">
-                    Workshops
+            <a name="Conferencepapers">
+                 <h3 class="text-h6 font-weight-medium text-left grow pt-3 routerLink" style ="color:#0f275c">
+                    Conference Papers
                 </h3>
             </a>
             
             <v-card-text class="py-0">
                 <v-list>
-                    <template v-for="(item) in workshops">
+                    <template v-for="(item) in conferencepapers">
                         <v-list-item :key="item.id">   
                             <v-list-item-content>
                                 <div class="d-flex">
@@ -140,7 +140,7 @@
 
 <script>
     import PUBLICATIONS from './json/publications.json';
-    import WORKSHOPS from './json/workshops.json';
+    import CONFERENCEPAPERS from './json/conferencepapers.json';
     import BOOKS from './json/books.json';
     import NoteTextOutline from 'vue-material-design-icons/NoteTextOutline.vue'
     import BookOpenVariant from 'vue-material-design-icons/BookOpenVariant.vue'
@@ -158,7 +158,7 @@
         data: () => ({
             paper: 'paper-text-outline',
             journals : PUBLICATIONS,
-            workshops : WORKSHOPS,
+            conferencepapers : CONFERENCEPAPERS,
             books : BOOKS,
             text : "",
             content :"",
@@ -181,7 +181,9 @@
       ]     ,
     }),
     beforeMount() {
-        this.journals = PUBLICATIONS.reverse();
+        this.journals = PUBLICATIONS;
+        this.conferencepapers = CONFERENCEPAPERS;
+        this.books = BOOKS.reverse();
         // this.getPublications();
     },
 
@@ -191,27 +193,23 @@
             this.journals = reverse(response.data);
 
           });      
-          axios.get('https://cyber-api.hellven.io/workshops').then(response => {
-            this.workshops = reverse(response.data);
-            // response.data.forEach(i=>{
-            //     console.log(i)})
-          });   
 
-          axios.get('https://cyber-api.hellven.io/books').then(response => {
-            this.books = reverse(response.data);
-            // response.data.forEach(i=>{
-            //     console.log(i)})
-          }); 
         },
         openSource(item){
             window.open(item.paperLink);
         },
         openAbstract(item){
             this.dialogA = true;
-            this.content = item.data.abstract;
+            this.content = item.abstract;
             //console.log(item)
         }
     }
 
   }
 </script>
+<style scoped>
+    
+    .routerLink{
+            text-decoration: none;
+    }
+</style>

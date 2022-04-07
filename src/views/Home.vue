@@ -123,8 +123,8 @@
                         <v-list-item-content>
                         
                             <p v-html="item.name" class="titlePaper" ></p>
-                            <v-list-item-subtitle v-html="item.data.authors" style="white-space: normal"></v-list-item-subtitle>
-                            <v-list-item-subtitle v-html="item.data.journal" class="text-wrap"></v-list-item-subtitle>
+                            <v-list-item-subtitle v-html="item.authors" style="white-space: normal"></v-list-item-subtitle>
+                            <v-list-item-subtitle v-html="item.journal" class="text-wrap"></v-list-item-subtitle>
                         </v-list-item-content>
                     </v-col>  
                 </v-list-item>
@@ -138,25 +138,14 @@
 
 <script>
 import PUBLICATIONS from './json/publications.json';
-import axios from 'axios';
   export default {
     data: () => ({
         recentPub: []
     }),
 
     beforeMount() {
-        this.recentPub = PUBLICATIONS.slice(PUBLICATIONS.length-10,(PUBLICATIONS.length)).reverse();
+        this.recentPub = PUBLICATIONS.slice(0, 4);
         // this.getPublications();
-    },
-
-    methods: {
-        getPublications() {
-          axios.get('https://cyber-api.hellven.io/publications').then(response => {
-            this.journals = response.data;
-            this.recentPub = response.data.slice(response.data.length-10,(response.data.length)).reverse();
-           // console.log(this.recentPub)
-          }); 
-        }
     }
   }
 </script>

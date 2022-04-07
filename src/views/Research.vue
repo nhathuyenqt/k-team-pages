@@ -9,9 +9,9 @@
                     <v-col>
                         <v-list-item-content class="my-3">
                             <div class="d-flex my-3">
-                                <p v-html="item.title" style ="color:#0f275c font-size:'15px'" class="font-weight-medium text-h6 color:#0f275c "></p>
+                                <strong class="g" v-html="item.title" ></strong>
                             </div>
-                            <div class="text--primary" v-html="item.abstract" > </div>              
+                            <div class="text--primary ofont font-weight-regular" v-html="item.abstract" > </div>              
                         </v-list-item-content>  
                     </v-col>
                 </v-list-item>
@@ -58,3 +58,15 @@
 
   }
 </script>
+
+<style scoped>
+    .ofont {
+        font-family: 'Open Sans', sans-serif;
+        size: '16px'
+    }
+    .g  {
+        color : #00783a;
+        size: '18px'
+    }
+
+</style>

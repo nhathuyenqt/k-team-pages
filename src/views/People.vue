@@ -2,15 +2,17 @@
 
   <v-row class="d-flex justify-start mx-auto my-4" style = "max-width:1100px">
     <v-col v-for="(item) in items" cols="12" md="3" sm="4" style = "max-height:300px" :key="item.id" align='center'>
-      <v-list-item-avatar  class="avatarimg " size="172">
-            <v-img class="pa-5" @click="goToWeb(item)" :src="getImagePath(item.name)"></v-img>
+      <router-link class="routerLink" :to="{profile:item, id: item.name,  path: '/people/'+item.name, component: Member }">
+      <v-list-item-avatar  class="avatarimg "  size="172">
+            <v-img class="pa-5"   :src="getImagePath(item.name)"></v-img>
 
       </v-list-item-avatar>
       <v-list-item-content>
-        <p v-html="item.fullname" class="name font-weight-regular pa-2" style="color: #165b9b"></p>
+        <strong v-html="item.fullname" class="name font-weight-regular pa-2" ></strong>
         <v-list-item-subtitle v-html="item.position" style="font-style: italic"></v-list-item-subtitle>
         
       </v-list-item-content>
+      </router-link>
     </v-col>
   </v-row>
 </template>
@@ -29,12 +31,18 @@
 
     methods: {
         goToWeb(item){
-          if (item.websiteLink){
-            console.log("web");
-            // let route = this.$router.resolve({ path: item.websiteLink });
-            // window.open(route.href);
-            window.open(item.websiteLink);
-          }  
+
+            if (item.websiteLink){
+              window.open(item.websiteLink);
+            }
+
+            this.$router.push({name:'Member', params:{id :item.id, profile: item}})
+       
+            // console.log("web");
+            // let route = this.$router.resolve({ path: '/people/'+item.name, name: "member" });
+            // window.open(route.href, "member");
+   
+      
         },
         getMembers() {
           axios.get('https://cyber-api.hellven.io/members').then(response => {
@@ -47,9 +55,28 @@
           });        
         },
         getImagePath(filename) {
+          console.log('@/src/view/members/' + filename+'.jpeg');
           return require('./members/' + filename+'.jpeg');
         }
     }
 
   }
 </script>
+<style scoped>
+    .ht {
+        color : #074a0e
+    }
+    .content strong {
+        color: #00783a;
+    }
+
+    .r {
+       font-family: 'Rubik', sans-serif;
+     
+    }
+
+    .routerLink{
+        text-decoration: none;
+        color: #165b9b;
+    }
+</style>

@@ -1,6 +1,7 @@
 <template>
- 
+  
   <div id="contact">
+    
     <h6 class="font-weight-regulartext-left grow mt-5 ml-3">Contact us</h6>
     <GoogleMap />
     <h6 class="font-weight-regulartext-left grow mt-5 ml-3" >How to find us</h6>
@@ -29,7 +30,7 @@
               </v-list-item-icon>
 
               <v-list-item-title style="font-family:'Roboto' size:'13px'">
-                <a class="routerLink" href="mailto:'cyber@gmail.com'">cyber_team_email(at)gmail.com</a>
+                <a class="routerLink" href="mailto:'cyber@gmail.com'">katerina.mitrokotsa@unisg.ch</a>
               </v-list-item-title>
             </v-list-item>
 
@@ -71,39 +72,11 @@
 
 }
 .h2{
-  'font-family': 'Helvetica Neue',
-  'text-align': 'center';
+  font-family: 'Helvetica Neue';
+  text-align : 'center';
   padding: 1rem;
   color:#555555;
 
 }
 
-$headings: (
-    'h1': (
-        'font-family': 'Calibri',
-        'size': 60px,
-        'line-height': 60px,
-        'weight': 400
-    ),
-    'h2': (
-        'font': 'Ariel',
-        'size': 48px,
-        'line-height': 48px,
-        'weight': 400
-    ),
-)
 </style>
-$headings: (
-    'h1': (
-        'font-family': 'Calibri',
-        'size': 60px,
-        'line-height': 60px,
-        'weight': 400
-    ),
-    'h2': (
-        'font': 'Ariel',
-        'size': 48px,
-        'line-height': 48px,
-        'weight': 400
-    ),
-)

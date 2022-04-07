@@ -1,428 +1,202 @@
 [
-    {
-        "thumbnail": [],
-        "_id": "619e50448d0398057bfbd52c",
-        "data": {
-            "authors": "A. Mitrokotsa and C. Douligeris",
-            "journal": "Computer Networks, 44(5):643-666, 5 April 2004",
-            "abstract": "Denial of Service (DoS) attacks constitute one of the major threats and among the hardest security problems in todays Internet. Of particular concern are Distributed Denial of Service (DDoS) attacks, whose impact can be proportionally severe. With little or no advance warning, a DDoS attack can easily exhaust the computing and communication resources of its victim within a short period of time. Because of the seriousness of the problem many defense mechanisms have been proposed to combat these attacks. This paper presents a structural approach to the DDoS problem by developing a classification of DDoS attacks and DDoS defense mechanisms. Furthermore, important features of each attack and defense system category are described and advantages and disadvantages of each proposed scheme are outlined. The goal of the paper is to place some order into the existing attack and defense mechanisms, so that a better understanding of DDoS attacks can be achieved and subsequently more efficient and effective algorithms, techniques and procedures to combat these attacks may be developed."
-        },
-        "metadata": null,
-        "name": "DDoS Attacks and Defense Mechanisms: Classification and State-of-the-art",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/COMNET.pdf",
-        "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/comnet.bib",
-        "createdAt": "2021-11-24T14:46:28.126Z",
-        "updatedAt": "2022-03-23T11:13:42.324Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e50448d0398057bfbd52c"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e509c8d0398057bfbd52d",
-        "data": {
-            "authors": "A. Mitrokotsa, N. Komninos, C. Douligeris",
-            "journal": "International Journal on Computer Research, Special Issue on Advances in Ad Hoc Network Security, Nova Science Publishing Inc., 15(1):23-55, 2007",
-            "abstract": " Ad hoc networks have received great attention in recent years,  mainly  due to their important advantages and their growing demand. Nevertheless,  ad  hoc networks present  many  inherent  vulnerabilities and demand  efficient security  mechanisms  in order to be  safeguarded. An efficient intrusion  detection approach combined with an authenticated intrusion response can act  as an  effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated  intrusion response engine based on an innovative  key  agreement protocol. In  particular, we exploit  information visualization and machine learning techniques in order to achieve efficient intrusion detection  and we  propose an effective intrusion response engine that is based on secure  communication principles in order to  mitigate the impacts of  possible  attacks. The performance of the proposed  model is  evaluated under different  traffic conditions and mobility patterns. "
-        },
-        "metadata": null,
-        "name": "Intrusion Detection and Response in Ad hoc Networks",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJCR.pdf",
-        "createdAt": "2021-11-24T14:47:56.498Z",
-        "updatedAt": "2021-12-01T22:47:59.957Z",
-        "__v": 0,
-        "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJCR2007.bib",
-        "members": [
-            {
-                "avatar": [
-                    {
-                        "_id": "619dfeb08d0398057bfbd515",
-                        "name": "Katerina.jpeg",
-                        "alternativeText": "",
-                        "caption": "",
-                        "hash": "Katerina_4e67bcf82d",
-                        "ext": ".jpeg",
-                        "mime": "image/jpeg",
-                        "size": 51.93,
-                        "width": 497,
-                        "height": 577,
-                        "url": "/uploads/Katerina_4e67bcf82d.jpeg",
-                        "formats": {
-                            "thumbnail": {
-                                "name": "thumbnail_Katerina.jpeg",
-                                "hash": "thumbnail_Katerina_4e67bcf82d",
-                                "ext": ".jpeg",
-                                "mime": "image/jpeg",
-                                "width": 134,
-                                "height": 156,
-                                "size": 5.81,
-                                "path": null,
-                                "url": "/uploads/thumbnail_Katerina_4e67bcf82d.jpeg"
-                            },
-                            "small": {
-                                "name": "small_Katerina.jpeg",
-                                "hash": "small_Katerina_4e67bcf82d",
-                                "ext": ".jpeg",
-                                "mime": "image/jpeg",
-                                "width": 431,
-                                "height": 500,
-                                "size": 39.63,
-                                "path": null,
-                                "url": "/uploads/small_Katerina_4e67bcf82d.jpeg"
-                            }
-                        },
-                        "provider": "local",
-                        "related": [
-                            "619375648d0398057bfbd50a"
-                        ],
-                        "createdAt": "2021-11-24T08:58:24.580Z",
-                        "updatedAt": "2021-11-24T08:59:42.998Z",
-                        "__v": 0,
-                        "id": "619dfeb08d0398057bfbd515"
-                    }
-                ],
-                "_id": "619375648d0398057bfbd50a",
-                "data": null,
-                "metadata": null,
-                "fullname": "Katerina Mitrokotsa",
-                "position": "Full Professor in Cyber Security",
-                "description": "Full Professor of Cyber Security\n\n",
-                "address": "School of Computer Science\nOffice 64-316\nTorstrasse 25\n9000 St. Gallen\nPhone: +41 71 224 78 61\nChair of Cyber-Security",
-                "createdAt": "2021-11-16T09:09:56.801Z",
-                "updatedAt": "2021-12-01T22:47:59.942Z",
-                "__v": 0,
-                "job": "Full Professor of Cyber Security",
-                "websiteLink": "http://www.cse.chalmers.se/~aikmitr/",
-                "publication": "619e509c8d0398057bfbd52d",
-                "id": "619375648d0398057bfbd50a"
-            }
-        ],
-        "id": "619e509c8d0398057bfbd52d"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e50ec8d0398057bfbd52e",
-        "data": {
-            "authors": "A. Mitrokotsa, M.R. Rieback, and A.S. Tanenbaum",
-            "journal": "Special Issue on Advances in RFID Technology, Information Systems Frontiers, Springer, Springer Science & Business Media, LLC 2009, DOI 10.1007/s10796-009-9210-z., July 2009",
-            "abstract": "RFID (Radio Frequency Identification) systems are one of the most pervasive computing technologies with technical potential and profitable opportunities in a diverse area of applications. Among their advantages is included their low cost and their broad applicability. However, they also present a number of inherent vulnerabilities. This paper develops a structural methodology for risks that RFID networks face by developing a classification of RFID attacks, presenting their important features, and discussing possible countermeasures. The goal of the paper is to categorize the existing weaknesses of RFID communication so that a better understanding of RFID attacks can be achieved and subsequently more efficient and effective algorithms, techniques and procedures to combat these attacks may be developed."
-        },
-        "metadata": null,
-        "name": "Classifying RFID Attacks and Defenses",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/ISF2009.pdf",
-        "reference": "https://lasecwww.epfl.ch/~katerina/bibfiles/ISF2010.bib",
-        "createdAt": "2021-11-24T14:49:16.416Z",
-        "updatedAt": "2021-12-02T06:21:00.930Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e50ec8d0398057bfbd52e"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e51508d0398057bfbd52f",
-        "data": {
-            "authors": "A. Mitrokotsa, N. Komninos, and C. Douligeris",
-            "journal": "International Journal of Network Security, 10(2): 93-106, March 2010",
-            "abstract": "Ad hoc networks have received great attention in recent years, mainly due to their important advantages and their growing demand. Nevertheless, ad hoc networks present many inherent vulnerabilities and demand efficient security mechanisms in order to be safeguarded. An efficient intrusion detection approach combined with an authenticated intrusion response can act as an effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated intrusion response engine based on an innovative key agreement protocol. In particular, we exploit information visualization and machine learning techniques in order to achieve efficient intrusion detection and we propose an effective intrusion response engine that is based on secure communication principles in order to mitigate the impacts of possible attacks. The performance of the proposed model is evaluated under different traffic conditions and mobility patterns. "
-        },
-        "metadata": null,
-        "name": "Protection of an Intrusion Detection Engine with Watermarking in Ad Hoc Networks",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJNS.pdf",
-        "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJNS2010.bib",
-        "createdAt": "2021-11-24T14:50:56.409Z",
-        "updatedAt": "2021-12-01T22:51:22.266Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e51508d0398057bfbd52f"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e51898d0398057bfbd530",
-        "data": {
-            "authors": "A. Mitrokotsa, C. Dimitrakakis, P. Peris-Lopez, J.C. Hernandez-Castro",
-            "journal": "IEEE Communications Letters, February 2010, 14 (2):121-123",
-            "abstract": "Distance bounding protocols are an effective countermeasure against relay attacks including distance fraud, maa fraud and terrorist fraud attacks. Reid et al. proposed the rst symmetric key distance bounding protocol against maa and terrorist fraud attacks [1]. However, [2] claims that this is only achieved with a probability of success for maa fraud, rather than the theoretical value of (for rounds) achieved by distance bounding protocols without a nal signature. We prove that the maa fraud attack success using the Reid et al. protocol is bounded by and reduces as noise increases. The proof can be of further interest as it is the rst–to the best of our knowledge –detailed analysis of the effects of communication errors on the security of a distance bounding protocol."
-        },
-        "metadata": null,
-        "name": "Reid et al.'s Distance Bounding Protocol and Mafia Fraud Attacks over Noisy Channels",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/ComLet.pdf",
-        "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/ComLet2010.bib",
-        "createdAt": "2021-11-24T14:51:53.081Z",
-        "updatedAt": "2021-12-02T07:03:45.402Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e51898d0398057bfbd530"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e51d18d0398057bfbd531",
-        "data": {
-            "authors": "P. Peris-Lopez, A. Orfila, A. Mitrokotsa, J.C.A. van der Lubbe",
-            "journal": "International Journal of Medical Informatics, 80(1): 13-24, January 2011. doi: 10.1016/j.ijmedinf.2010. 10.008.",
-            "abstract": "Errors involving medication administration can be costly, both in financial and in human terms. Indeed, there is much potential for errors due to the complexity of the medication administration process. Nurses are often singled out as the only responsible of these errors because they are in charge of drug administration. Nevertheless, the interventions of every actor involved in the process and the system design itself contribute to errors (Wakefield et al. (1998) [23]). Proper inpatient medication safety systems can help to reduce such errors in hospitals. In this paper, we review in depth two recent proposals (Chien et al. (2010) [7]; HuangandKu(2009)[12])thatpursuetheaforementionedobjective.Unfortunately,theyfail in their attempt mainly due to their security faults but interesting ideas can be drawn from both. These security faults refer to impersonation and replay attacks that could produce the generation of a forged proof stating that certain medication was administered to an inpatient when it was not. We propose a leading-edge solution to enhance inpatient medication safety based on RFID technology that overcomes these weaknesses. Our solution, named Inpatient Safety RFID system (IS-RFID), takes into account the Information Technology (IT) infrastructure of a hospital and covers every phase of the drug administration process. From a practical perspective, our system can be easily integrated within hospital IT infrastructures, has a moderate cost, is very ease to use and deals with security aspects as a key point."
-        },
-        "metadata": null,
-        "name": "A Comprehensive RFID Solution to Enhance Inpatient Medication Safety",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJMI.pdf",
-        "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJMI2011.bib",
-        "createdAt": "2021-11-24T14:53:05.586Z",
-        "updatedAt": "2021-12-02T08:18:09.301Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e51d18d0398057bfbd531"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e52048d0398057bfbd532",
-        "data": {
-            "authors": "A. Mitrokotsa, C. Dimitrakakis",
-            "journal": "Ad hoc Networks, Elsevier, 11(11):226-237, January 2013. doi: 10.1016/j.adhoc.2012.05.006",
-            "abstract": "Ad hoc networks have received great attention in recent years,  mainly  due to their important advantages and their growing demand. Nevertheless,  ad  hoc networks present  many  inherent  vulnerabilities and demand  efficient security  mechanisms  in order to be  safeguarded. An efficient intrusion  detection approach combined with an authenticated intrusion response can act  as an  effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated  intrusion response engine based on an innovative  key  agreement protocol. In  particular, we exploit  information visualization and machine learning techniques in order to achieve efficient intrusion detection  and we  propose an effective intrusion response engine that is based on secure  communication principles in order to  mitigate the impacts of  possible  attacks. The performance of the proposed  model is  evaluated under different  traffic conditions and mobility patterns."
-        },
-        "metadata": null,
-        "name": "Intrusion Detection in MANET using Classification Algorithms: The Effects of Cost and Model Selection",
-        "createdAt": "2021-11-24T14:53:56.681Z",
-        "updatedAt": "2021-12-01T22:40:41.386Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e52048d0398057bfbd532"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e52288d0398057bfbd533",
-        "data": {
-            "authors": "S. Pastrana, A. Mitrokotsa, A. Orfila, P. Peris-Lopez",
-            "journal": "Knowledge-Based Systems, Elsevier, 36:217-225, December 2012. doi: 10.1016/j.knosys.2012.06.016."
-        },
-        "metadata": null,
-        "name": "Evaluation of Classification Algorithms for Intrusion Detection in MANETs",
-        "createdAt": "2021-11-24T14:54:32.597Z",
-        "updatedAt": "2022-03-23T11:00:42.579Z",
-        "__v": 0,
-        "paperLink": "http://infoscience.epfl.ch/record/181517/files/KnowledgeMitrokotsa2012.pdf",
-        "members": [],
-        "id": "619e52288d0398057bfbd533"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e5d258d0398057bfbd534",
-        "data": {
-            "authors": "A. Mitrokotsa, P. Peris-Lopez, C. Dimitrakakis, S. Vaudenay",
-            "journal": "The Computer Journal (Oxford University Press), Special Issue on Advanced Semantic and Social Multimedia Technologies for Future Computing Environment. 2013. doi: 10.1093/comjnl/bxt033"
-        },
-        "metadata": null,
-        "name": "On selecting the nonce length in distance-bounding protocols",
-        "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/Wilkes.pdf",
-        "bibtexLink": "http://www.cse.chalmers.se/~aikmitr/bibfiles/ComputerJournal13.bib",
-        "createdAt": "2021-11-24T15:41:25.766Z",
-        "updatedAt": "2021-11-24T15:41:25.783Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e5d258d0398057bfbd534"
-    },
-    {
-        "thumbnail": [],
-        "_id": "619e5d518d0398057bfbd535",
-        "data": {
-            "authors": "A. Mitrokotsa, C. Onete, S. Vaudenay",
-            "journal": "Computers & Security (Elsevier) Vol. 45, 199-209, 2014. doi: 10.1016/j.cose.2014.06.001."
-        },
-        "metadata": null,
-        "name": "Location Leakage in Distance Bounding: Why Location Privacy Does not Work",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/ComputersSecurity.pdf",
-        "bibtexLink": "https://www.cse.chalmers.se/~aikmitr/bibfiles/ComputersSecurity.bib",
-        "createdAt": "2021-11-24T15:42:09.944Z",
-        "updatedAt": "2022-03-23T11:21:32.810Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e5d518d0398057bfbd535"
-    },
-    {
-        "thumbnail": [
-            {
-                "_id": "619e5eb38d0398057bfbd537",
-                "name": "Screenshot 2021-11-24 at 16.47.44.png",
-                "alternativeText": "",
-                "caption": "",
-                "hash": "Screenshot_2021_11_24_at_16_47_44_21fbd9e9c1",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 24.54,
-                "width": 218,
-                "height": 304,
-                "url": "/uploads/Screenshot_2021_11_24_at_16_47_44_21fbd9e9c1.png",
-                "formats": {
-                    "thumbnail": {
-                        "name": "thumbnail_Screenshot 2021-11-24 at 16.47.44.png",
-                        "hash": "thumbnail_Screenshot_2021_11_24_at_16_47_44_21fbd9e9c1",
-                        "ext": ".png",
-                        "mime": "image/png",
-                        "width": 112,
-                        "height": 156,
-                        "size": 9.05,
-                        "path": null,
-                        "url": "/uploads/thumbnail_Screenshot_2021_11_24_at_16_47_44_21fbd9e9c1.png"
-                    }
-                },
-                "provider": "local",
-                "related": [
-                    "619e5d958d0398057bfbd536"
-                ],
-                "createdAt": "2021-11-24T15:48:03.463Z",
-                "updatedAt": "2021-11-24T15:48:09.928Z",
-                "__v": 0,
-                "id": "619e5eb38d0398057bfbd537"
-            }
-        ],
-        "_id": "619e5d958d0398057bfbd536",
-        "data": {
-            "authors": "I. Boureanu, A. Mitrokotsa, S. Vaudenay",
-            "journal": "Journal of Computer Security, 23(2):229-257 doi: 10.3233/JCS-140518, 2015."
-        },
-        "metadata": null,
-        "name": "Practical & Provably Secure Distance Bounding",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/JCS518.pdf",
-        "bibtexLink": "https://www.cse.chalmers.se/~aikmitr/bibfiles/JoCS15.bib",
-        "createdAt": "2021-11-24T15:43:17.609Z",
-        "updatedAt": "2022-03-23T11:14:36.385Z",
-        "__v": 0,
-        "members": [],
-        "id": "619e5d958d0398057bfbd536"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a88254d784982c6938800a",
-        "data": {
-            "authors": "C. Dimitrakakis, A. Mitrokotsa, S. Vaudenay",
-            "journal": "International Journal of Medical Informatics, 80(1): 13-24, January 2011. doi: 10.1016/j.ijmedinf.2010. 10.008.",
-            "abstract": "We derive bounds on the expected loss for authentication protocols in channels which are constrained due to noisy conditions and communication costs. This i s moti vated by a number of authentication protocols, where at least some part of the authentication i s performed during a phase, lasting n rounds, with no error correction. This requires assigning an acceptable threshold for the number of detected errors and taking into account the cost o f incorrect authentication and of communication. This paper describes a frame w ork enabling a n expected loss analysis for all the protocols in this family . Computationally simple methods to obtain nearly optimal v alues for the threshold, as well as for the number o f rounds are suggested and upper bounds on the expected loss, holding uniformly , are gi v en. These bounds are tight, a s shown by a matching l o wer bound. Finally , a method to adapti v ely select both the number o f rounds and the threshold i s proposed for a certain class o f protocols."
-        },
-        "metadata": null,
-        "name": "Expected loss analysis for authentication in constrained channels.",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/JCS521.pdf",
-        "createdAt": "2021-12-02T08:22:44.843Z",
-        "updatedAt": "2022-03-23T11:17:05.627Z",
-        "__v": 0,
-        "members": [],
-        "id": "61a88254d784982c6938800a"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a882c3d784982c6938800b",
-        "data": {
-            "authors": "C. Dimitrakakis, A. Mitrokotsa",
-            "journal": "IEEE Security & Privacy, 13(4):47-51, July/August 2015.",
-            "abstract": "Distance-bounding protocols can offer protection against attacks on access control systems that require users to both verify their credentials and prove their location. However, tradeoffs among accuracy, cost, and privacy are necessary."
-        },
-        "metadata": null,
-        "name": "Distance Bounding Protocols: Are you Close Enough?",
-        "createdAt": "2021-12-02T08:24:35.889Z",
-        "updatedAt": "2022-03-23T11:17:22.314Z",
-        "__v": 0,
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/IEEESecPriv15.pdf",
-        "members": [],
-        "id": "61a882c3d784982c6938800b"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a88330d784982c6938800c",
-        "data": {
-            "authors": "E. Pagnin, G. Hancke, A. Mitrokotsa",
-            "journal": "IEEE Communications Letters, 19(7):1173-1176, doi: 10.1109/LCOMM.2015.2434373. July 2015.",
-            "abstract": "—Distance-bounding protocols allow devices to cryptographically verify the physical proximity of two parties and is a prominent secure neighbour detection method. We describe how existing distance-bounding protocols could be modified to verify the proximity of both next-hop and two-hop neighbours. This approach allows a node to verify that another node is a physical next-hop neighbour, and also detects legitimate neighbours who make dishonest claims as to who their neighbours are. This approach could prevent dishonest neighbours from hoarding traffic as the result of advertising false two-hop routes."
-        },
-        "metadata": null,
-        "name": "Using Distance-Bounding Protocols to Securely Verify the Proximity of Two-Hop Neighbours",
-        "createdAt": "2021-12-02T08:26:24.338Z",
-        "updatedAt": "2022-03-23T11:16:31.558Z",
-        "__v": 0,
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/twoHop.pdf",
-        "members": [],
-        "id": "61a88330d784982c6938800c"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a883c3d784982c6938800d",
-        "data": {
-            "authors": "C. Karlsson, A. Mitrokotsa",
-            "journal": "IEEE Communications Letters, 20(7):1365-1368, doi: 10.1109/LCOMM.2016.2562618, July 2016.",
-            "abstract": "The use of wireless communications has had tremendous expansion and has led to the development of wearable devices with limited resources. Often, to gain access to services/places, proving the physical proximity of a single device, may not be enough. Multiple wearable devices linked to function as a team may provide stronger guarantees on accurate authentication. Although distance-bounding (DB) protocols provide a reliable way to prove the physical proximity of a device and grouping-proof (GP) protocols can be employed to prove the presence of multiple provers, proving that multiple devices are present and in close proximity to a verifier is more challenging. In this letter, we introduce a new concept that extends traditional DB protocols to a multi-prover setting and we propose the first GPDB protocol that provides not only a proof of the presence of multiple provers at the same time but also assurance regarding the physical proximity of the provers, requiring limited computational effort. Furthermore, we discuss the effectiveness of this protocol, considering the main threats in DB and GP protocols"
-        },
-        "metadata": null,
-        "name": "Grouping-Proof-Distance-Bounding Protocols: Keep all your friends close.",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/GPDB.pdf",
-        "createdAt": "2021-12-02T08:28:51.467Z",
-        "updatedAt": "2022-03-23T11:16:14.985Z",
-        "__v": 0,
-        "members": [],
-        "id": "61a883c3d784982c6938800d"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a88430d784982c6938800e",
-        "data": {
-            "authors": "C. Dimitrakakis, A. Mitrokotsa",
-            "journal": "Computers & Security, Elsevier, Vol. 64, pages 110-121, doi: 10.1016/j.cose.2015.06.010, January 2017..",
-            "abstract": "Many applications involve agents sharing a resource, such as networks or services. When agents are honest, the system functions well and there is a net profit. Unfortunately, some agents may be malicious, but it may be hard to detect them. We consider the decision making problem of how to permanently blacklist agents, in order to maximise expected profit. The problem of efficiently deciding which nodes to permanently blacklist has various applications ranging from efficient intrusion response, network management, shutting down malware infected hosts in an internal network and efficient distribution of services in a network. In this paper, we propose an approach to efficiently perform this blacklisting while minimising the cost of the service provider. Although our approach is quite general and could be applied to all the previously mentioned applications, to ease understanding we consider the problem in which an Internet service provider (ISP) needs to decide whether or not to blacklist a possibly misbehaving node.This is not trivial, as blacklisting may erroneously expel honest nodes (agents). Conversely, while we gain information by allowing a node to remain, we may incur a cost due to malicious behaviour. We present an efficient algorithm (HIPER) for making nearoptimal decisions for this problem. Additionally, we derive three algorithms by reducing the problem to a Markov decision process (MDP). Theoretically, we show that HIPER is nearoptimal. Experimentally, its performance is close to that of the full MDP solution, when the (stronger) requirements of the latter are met."
-        },
-        "metadata": null,
-        "name": "Near-Optimal Blacklisting",
-        "createdAt": "2021-12-02T08:30:40.977Z",
-        "updatedAt": "2022-03-23T11:15:59.861Z",
-        "__v": 0,
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/blacklisting.pdf",
-        "members": [],
-        "id": "61a88430d784982c6938800e"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a88498d784982c6938800f",
-        "data": {
-            "authors": "C. Dimitrakakis, B. Nelson, Z. Zhang, A. Mitrokotsa, B.I.P. Rubinstein",
-            "journal": "Journal of Machine Learning Research, Vol. 18, Issue 11 pages 1-39, 2017.",
-            "abstract": "Differential privacy formalises privacy-preserving mechanisms that provide access to a database. Can Bayesian inference be used directly to provide private access to data? The answer is yes: under certain conditions on the prior, sampling from the posterior distribution can lead to a desired level of privacy and utility. For a uniform treatment, we define differential privacy over arbitrary data set metrics, outcome spaces and distribution families. This allows us to also deal with non-i.i.d or non-tabular data sets. We then prove bounds on the sensitivity of the posterior to the data, which delivers a measure of robustness. We also show how to use posterior sampling to provide differentially private responses to queries, within a decision-theoretic framework. Finally, we provide bounds on the utility of answers to queries and on the ability of an adversary to distinguish between data sets. The latter are complemented by a novel use of Le Cam’s method to obtain lower bounds on distinguishability. Our results hold for arbitrary metrics, including those for the common definition of differential privacy. For specific choices of the metric, we give a number of examples satisfying our assumptions"
-        },
-        "metadata": null,
-        "name": "Differential Privacy for Bayesian Inference through Posterior Sampling.",
-        "paperLink": "https://jmlr.org/papers/volume18/15-257/15-257.pdf",
-        "createdAt": "2021-12-02T08:32:24.523Z",
-        "updatedAt": "2022-03-23T10:58:32.631Z",
-        "__v": 0,
-        "members": [],
-        "id": "61a88498d784982c6938800f"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a884fad784982c69388010",
-        "data": {
-            "authors": "E. Pagnin, A. Mitrokotsa",
-            "journal": "Security and Communication Networks, Vol. 2017 (2017), Article ID 7129505, doi:0.1155/2017/7129505",
-            "abstract": "An emerging direction for authenticating people is the adoption of biometric authentication systems. Biometric credentials are becoming increasingly popular as a means of authenticating people due to the wide range of advantages that they provide with respect to classical authentication methods (e.g., password-based authentication). The most characteristic feature of this authentication method is the naturally strong bond between a user and her biometric credentials. This very same advantageous property, however, raises serious security and privacy concerns in case the biometric trait gets compromised. In this article, we present the most challenging issues that need to be taken into consideration when designing secure and privacypreserving biometric authentication protocols. More precisely, we describe the main threats against privacy-preserving biometric authentication systems and give directions on possible countermeasures in order to design secure and privacy-preserving biometric authentication protocols."
-        },
-        "metadata": null,
-        "name": "Privacy-preserving biometric authentication: Challenges & Directions .",
-        "paperLink": "https://downloads.hindawi.com/journals/scn/2017/7129505.pdf",
-        "createdAt": "2021-12-02T08:34:02.718Z",
-        "updatedAt": "2021-12-02T08:34:02.730Z",
-        "__v": 0,
-        "members": [],
-        "id": "61a884fad784982c69388010"
-    },
-    {
-        "thumbnail": [],
-        "_id": "61a88513d784982c69388011",
-        "data": {
-            "authors": "E. Pagnin, A. Yang, Q. Hu, G. Hancke, A. Mitrokotsa",
-            "journal": "Future Generation Computer Systems, Elsevier, Vol. 80, pp. 627-639, March 2018.",
-            "abstract": "Errors involving medication administration can be costly, both in financial and in human terms. Indeed, there is much potential for errors due to the complexity of the medication administration process. Nurses are often singled out as the only responsible of these errors because they are in charge of drug administration. Nevertheless, the interventions of every actor involved in the process and the system design itself contribute to errors (Wakefield et al. (1998) [23]). Proper inpatient medication safety systems can help to reduce such errors in hospitals. In this paper, we review in depth two recent proposals (Chien et al. (2010) [7]; HuangandKu(2009)[12])thatpursuetheaforementionedobjective.Unfortunately,theyfail in their attempt mainly due to their security faults but interesting ideas can be drawn from both. These security faults refer to impersonation and replay attacks that could produce the generation of a forged proof stating that certain medication was administered to an inpatient when it was not. We propose a leading-edge solution to enhance inpatient medication safety based on RFID technology that overcomes these weaknesses. Our solution, named Inpatient Safety RFID system (IS-RFID), takes into account the Information Technology (IT) infrastructure of a hospital and covers every phase of the drug administration process. From a practical perspective, our system can be easily integrated within hospital IT infrastructures, has a moderate cost, is very ease to use and deals with security aspects as a key point."
-        },
-        "metadata": null,
-        "name": "HB+DB: Distance bounding meets human based authentication.",
-        "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/HBDBjournal.pdf",
-        "createdAt": "2021-12-02T08:34:27.821Z",
-        "updatedAt": "2022-03-23T11:15:38.563Z",
-        "__v": 0,
-        "members": [],
-        "id": "61a88513d784982c69388011"
-    }
+  {
+    "name": "Homomorphic signcryption with public plaintext-result checkability.",
+    "paperLink": "https://research.chalmers.se/publication/524091/file/524091_Fulltext.pdf",
+    "authors": "S. Li, B. Liang, A. Mitrokotsa and R. Xue",
+    "journal": "IET Information Security, 15(5), 37, doi:10.1049/ise2.12026, Sept. 2021, pp. 333-350.",
+    "abstract": "Signcrypti onoriginally proposed by Zheng(CRYPTO097) is a useful cryptographic primitive that provides strong confidentiality and integrity guarantees. This articlead-dresses the question whether it is possible to homomorphically compute arbitrary functions on signcrypted data.Theanswer is affirmative and a newcryptographicprimitive, homomorphic signcryption(HSC) with public plain text‐result checkability is proposed that allows both to evaluate arbitrary functions over signcrypted data and makesit possiblefor anyone to publiclytest whethera given ciphertext is the signcryption of the message underthe key. Two notions of message privacy are also investigated: weak message privacy and message privacy depending on whether the original signcryptions used in the evaluation are disclosed or not. More precisely, the contributions are two‐fold:(i) two different definitions of HSC with public plaintext‐result check ability  is providedfor arbitrary functionsin terms of syntax,unforgeabilityand messageprivacy dependingon if the homomorphic computationis performedin a private or in a publicevaluationsetting,(ii) two HSCconstructions are proposed:one for a public evaluation setting and anotherfor a private evaluation setting and securityis formally proved."
+  },
+  {
+    "name": "Statically Aggregate Verifiable Random Functions and Application to E-Lottery.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/crypto-MDPI2020-LBM.pdf",
+    "authors": "B. Liang, G. Banegas, A. Mitrokotsa",
+    "journal": "Cryptograhy (MDPI), 4(4), 37, doi:10.3390/cryptography4040037, 2020.",
+    "abstract": "Cohen, Goldwasser, and Vaikuntanathan (TCC’15) introduced the concept of aggregate pseudo-random functions (PRFs), which allow efficiently computing the aggregate of PRF values over exponential-sized sets. In this paper, we explore the aggregation augmentation on verifiable random function (VRFs), introduced by Micali, Rabin and Vadhan (FOCS’99), as well as its application to e-lottery schemes. We introduce the notion of static aggregate verifiable random functions (Agg-VRFs), which perform aggregation for VRFs in a static setting. Our contributions can be summarized as follows: (1) we define static aggregate VRFs, which allow the efficient aggregation of VRF values and the corresponding proofs over super-polynomially large sets; (2) we present a static Agg-VRF construction over bit-fixing sets with respect to product aggregation based on the q-decisional Diffie–Hellman exponent assumption; (3) we test the performance of our static Agg-VRFs instantiation in comparison to a standard (non-aggregate) VRF in terms of costing time for the aggregation and verification processes, which shows that Agg-VRFs lower considerably the timing of verification of      big sets; and (4) by employing Agg-VRFs, we propose an improved e-lottery scheme based on the framework of Chow et al.’s VRF-based e-lottery proposal (ICCSA’05). We evaluate the performance of Chow et al.’s e-lottery scheme and our improved scheme, and the latter shows a significant improvement in the efficiency of generating the winning number and the player verification."
+  },
+  {
+    "name": "Practical and Provably Secure Distributed Aggregation: Verifiable Additive Homomorphic Secret Sharing.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/crypto-MDPI2020-TBM.pdf",
+    "authors": "G. Tsaloli, G. Banegas, A. Mitrokotsa",
+    "journal": "Cryptograhy (MDPI), 4(3), 25, doi:10.3390/cryptography4030025, 2020.",
+    "abstract": "Often clients (e.g., sensors, organizations) need to outsource joint computations that are based on some joint inputs to external untrusted servers. These computations often rely on the        aggregation of data collected from multiple clients, while the clients want to guarantee that the results are correct and, thus, an output that can be publicly verified is required. However, important security and privacy challenges are raised, since clients may hold sensitive information. In this paper, we propose an approach, called verifiable additive homomorphic secret sharing (VAHSS), to achieve practical and provably secure aggregation of data, while allowing for the clients to protect their secret data and providing public verifiability i.e., everyone should be able to verify the correctness of the computed result. We propose three VAHSS constructions by combining an additive homomorphic secret sharing (HSS) scheme, for computing the sum of the clients’ secret inputs, and three different methods for achieving public verifiability, namely: (i) homomorphic collision-resistant hash functions; (ii) linear homomorphic signatures; as well as (iii) a threshold RSA signature scheme. In all three constructions, we provide a detailed correctness, security, and verifiability analysis and detailed experimental evaluations. Our results demonstrate the efficiency of our proposed constructions, especially from the client side."
+  },
+  {
+    "name": "Multi-key homomorphic authenticators.  [ IET Premium Award ]",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/iet-ifs.2018.pdf",
+    "authors": "D. Fiore, A. Mitrokotsa, L. Nizzardo, E. Pagnin.",
+    "journal": "IET Information Security, doi:10.1049/iet-ifs.2018.5341, 2019.",
+    "abstract": "Homomorphic authenticators (HAs) enable a client to authenticate a large collection of data elements m1, …, mt and outsource them, along with the corresponding authenticators, to an untrusted server. At any later point, the server can generate a short authenticator σf phi_f_y, vouching for the correctness of the output y of a function f computed on the outsourced data, i.e. y = f(m1, …, mt). The notion of HAs studied so far, however, only supports executions of computations over data authenticated by     a single user. Motivated by realistic scenarios in which large datasets include data provided by multiple users, we study the concept of multi-key homomorphic authenticators. In a nutshell, multi-key HAs are like HAs with the extra feature of allowing the holder of public evaluation keys to compute on data authenticated under different secret keys. In this paper, we introduce and formally define multi-key HAs. Secondly, we propose a construction of a multi-key homomorphic signature based on standard lattices and supporting the evaluation of circuits of bounded polynomial depth. Thirdly, we provide a construction of multi-key homomorphic MACs based only on pseudorandom functions and supporting the evaluation of low-degree arithmetic circuits."
+  },
+  {
+    "name": "Decentralised Functional Signatures.",
+    "paperLink": "https://core.ac.uk/download/pdf/222823273.pdf",
+    "authors": "Q. Hu, J. Zhang, A. Mitrokotsa, G. Hancke.",
+    "journal": "Mobile Networks and Applications (Springer), doi:10.1007/s11036-018-1149-1, 2018.",
+    "abstract": "With the rapid development of the Internet of Things (IoT) a lot of critical information is shared however without having guarantees about the origin and integrity of the information. Digital signatures can provide important integrity guarantees to prevent illegal users from getting access to private and sensitive data in various IoT applications. Functional signatures, introduced by Boyle, Goldwasser and Ivan (PKC 2014) as signatures with a finegrained access control, allow an authority to generate signing keys corresponding to various functions such that a user with a signing key for a function f , can sign the image of the function f on a message m i.e., can sign f (m). Okamoto and Takashima (PKC 2013) firstly proposed the notion of a decentralized multi-authority functional signature (DMA-FS) scheme, which supports non-monotone access structures combined with inner-product relations. In this paper, we generalise the definition of DMA-FS proposed by Okamoto et al. (PKC13) for even more general policy functions, which support any polynomial-size boolean predicates other than the inner product relation and allow modifications of the original message. In our multi-authority functional signature (MAFS), there are multiple authorities and each one is able to certify a specific function and issue a corresponding functional signing key for each individual with some property, rendering them very useful in application settings such smart homes, smart cities, smart health care etc. We also provide a general transformation from a standard signature scheme to a MAFS scheme. Moreover, we present a way to build a function private MAFS from a FS without function privacy together with SNARKs."
+  },
+  {
+    "name": "Lattice-based Simulatable VRFs: Challenges and Future Directions.",
+    "paperLink": "https://isyou.info/jisis/vol8/no4/jisis-2018-vol8-no4-04.pdf",
+    "authors": "C. Brunetta, B. Liang, A. Mitrokotsa.",
+    "journal": "Journal of Internet Services and Information Security, Vol.8, No.4, pp. 57-69, doi:10.22667/JISIS.2018.11.30.057, Nov. 2018.",
+    "abstract": "Lattice-based cryptography is evolving rapidly and is often employed to design cryptographic primitives that hold a great promise to be post-quantum resistant and can be employed in multiple application settings such as: e-cash, unique digital signatures, non-interactive lottery and others. In such application scenarios, a user is often required to prove non-interactively the correct computation of a pseudo-random function Fk(x) without revealing the secret key k used. Commitment schemes are also useful in application settings requiring to commit to a chosen but secret value that could be revealed later. In this short paper, we provide our insights on constructing a lattice-based simulatable verifiable random function (sVRF) using non interactive zero knowledge arguments and dual-mode commitment schemes and we point out the main challenges that need to be addressed in order to achieve it."
+  },
+  {
+    "name": "Tangible security: Survey of methods supporting secure ad-hoc connects of edge devices with physical context.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/TangibleSecurity18.pdf",
+    "authors": "Q. Hu, J. Zhang, A. Mitrokotsa, G. Hancke.",
+    "journal": "Computers & Security (Elsevier), Vol. 78, pp. 281-300, 2018.",
+    "abstract": "Edge computing is the concept of moving computation back to the endpoints of a network, as an alternative to, or in combination with, centralized, cloud-based architectures. It is especially of interest for Internet-of-Things and Cyber-Physical Systems where embedded endpoints make up the edge of the network, and where these devices need to make localised, time-critical decisions. In these environment secure, ad-hoc device-to-device interaction is important, but offers a challenge because devices might belong to different systems, or security domains, which complicates trusted communication and key establishment. There has been a growing interest in complementing conventional cryptography with physical context.This allows for services that are difficult to achieve with existing cryptographic mechanisms: devices pairing (initial key establishment) and proof-of-proximity (ensuring devices are physically present). Numerous methods, the majority of which are based on the physical context of device characteristics, behavior or environment, have been proposed to supplement cryptography in achieving these services. This paper provides an overview of this area of research, first discussing the nature and importance of the two specified security services in ad-hoc communication settings and then providing an introduction to prominent physical context security approaches in literature."
+  },
+  {
+    "name": "VIVO: A secure, privacy-preserving, and real-time crowd-sensing framework for the Internet of Things",
+    "paperLink": "https://eprints.bournemouth.ac.uk/31245/1/vivo-secure-privacy.pdf",
+    "authors": "L. Luceri, F. Cardoso, M. Papandrea, S. Giordano, J. Buwaya, S. Kündig, C.M. Angelopoulos, J.D.P. Rolim, Z. Zhao, J.L. Carrera, T. Braun, A.C.Y. Tossou, C. Dimitrakakis, A. Mitrokotsa",
+    "journal": "Pervasive and Mobile Computing (Elsevier) Vol. 49, pp. 126-138, 2018.",
+    "abstract": "Smartphones are a key enabling technology in the Internet of Things (IoT) for gathering crowd-sensed data. However, collecting crowd-sensed data for research is not simple. Issues related to device heterogeneity, security, and privacy have prevented the rise of crowd-sensing platforms for scientific data collection. For this reason, we implemented VIVO, an open framework for gathering crowdsensed Big Data for IoT services, where security and privacy are managed within the framework. VIVO introduces the enrolled crowd-sensing model, which allows the deployment of multiple simultaneous experiments on the mobile phones of volunteers. The collected data can be accessed both at the end of the experiment, as in traditional testbeds, as well as in real-time, as required by many Big Data applications. We present here the VIVO architecture, highlighting its advantages over existing solutions, and four relevant real-world applications running on top of VIVO."
+  },
+  {
+    "name": "Two-hop Distance-Bounding Protocols: Keep your Friends Close.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/two-hop-accepted-version.pdf",
+    "authors": "A. Yang, E. Pagnin, A. Mitrokotsa, G. Hancke, D.S. Wong",
+    "journal": "IEEE Transactions on Mobile Computing, Vol. 17, No. 7, pp. 1723-1736, 2018. ",
+    "abstract": "Authentication in wireless communications often depends on the physical proximity to a location. Distance-bounding (DB) protocols are cross-layer authentication protocols that are based on the round-trip-time of challenge-response exchanges and can be employed to guarantee physical proximity and combat relay attacks. However, traditional DB protocols rely on the assumption that the prover (e.g., user) is in the communication range of the verifier (e.g., access point); something that might not be the case in multiple access control scenarios in ubiquitous computing environments as well as when we need to verify the proximity of our two-hop neighbour in an ad-hoc network. In this paper, we extend traditional DB protocols to a two-hop setting i.e. when the prover is out of the communication range of the verifier and thus, they both need to rely on an untrusted in-between entity in order to verify proximity. We present a formal framework that captures the most representative classes of existing DB protocols and provide a general method to extend traditional DB protocols to the two-hop case (three participants). We analyse the security of two-hop DB protocols and identify connections with the security issues of the corresponding one-hop case. Finally, we demonstrate the correctness of our security analysis and the efficiency of our model by transforming five existing DB protocols to the two-hop setting and we evaluate their performance with simulated experiments."
+  },
+  {
+    "name": "HB+DB: Distance bounding meets human based authentication.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/HBDBjournal.pdf",
+    "authors": "E. Pagnin, A. Yang, Q. Hu, G. Hancke, A. Mitrokotsa",
+    "journal": "Future Generation Computer Systems, Elsevier, Vol. 80, pp. 627-639, March 2018.",
+    "abstract": "Errors involving medication administration can be costly, both in financial and in human terms. Indeed, there is much potential for errors due to the complexity of the medication administration process. Nurses are often singled out as the only responsible of these errors because they are in charge of drug administration. Nevertheless, the interventions of every actor involved in the process and the system design itself contribute to errors (Wakefield et al. (1998) [23]). Proper inpatient medication safety systems can help to reduce such errors in hospitals. In this paper, we review in depth two recent proposals (Chien et al. (2010) [7]; HuangandKu(2009)[12])thatpursuetheaforementionedobjective.Unfortunately,theyfail in their attempt mainly due to their security faults but interesting ideas can be drawn from both. These security faults refer to impersonation and replay attacks that could produce the generation of a forged proof stating that certain medication was administered to an inpatient when it was not. We propose a leading-edge solution to enhance inpatient medication safety based on RFID technology that overcomes these weaknesses. Our solution, named Inpatient Safety RFID system (IS-RFID), takes into account the Information Technology (IT) infrastructure of a hospital and covers every phase of the drug administration process. From a practical perspective, our system can be easily integrated within hospital IT infrastructures, has a moderate cost, is very ease to use and deals with security aspects as a key point."
+  },
+  {
+    "name": "Privacy-preserving biometric authentication: Challenges & Directions .",
+    "paperLink": "https://downloads.hindawi.com/journals/scn/2017/7129505.pdf",
+    "authors": "E. Pagnin, A. Mitrokotsa",
+    "journal": "Security and Communication Networks, Vol. 2017 (2017), Article ID 7129505, doi:0.1155/2017/7129505",
+    "abstract": "An emerging direction for authenticating people is the adoption of biometric authentication systems. Biometric credentials are becoming increasingly popular as a means of authenticating people due to the wide range of advantages that they provide with respect to classical authentication methods (e.g., password-based authentication). The most characteristic feature of this authentication method is the naturally strong bond between a user and her biometric credentials. This very same advantageous property, however, raises serious security and privacy concerns in case the biometric trait gets compromised. In this article, we present the most challenging issues that need to be taken into consideration when designing secure and privacypreserving biometric authentication protocols. More precisely, we describe the main threats against privacy-preserving biometric authentication systems and give directions on possible countermeasures in order to design secure and privacy-preserving biometric authentication protocols."
+  },
+  {
+    "name": "Differential Privacy for Bayesian Inference through Posterior Sampling.",
+    "paperLink": "https://jmlr.org/papers/volume18/15-257/15-257.pdf",
+    "authors": "C. Dimitrakakis, B. Nelson, Z. Zhang, A. Mitrokotsa, B.I.P. Rubinstein",
+    "journal": "Journal of Machine Learning Research, Vol. 18, Issue 11 pages 1-39, 2017.",
+    "abstract": "Differential privacy formalises privacy-preserving mechanisms that provide access to a database. Can Bayesian inference be used directly to provide private access to data? The answer is yes: under certain conditions on the prior, sampling from the posterior distribution can lead to a desired level of privacy and utility. For a uniform treatment, we define differential privacy over arbitrary data set metrics, outcome spaces and distribution families. This allows us to also deal with non-i.i.d or non-tabular data sets. We then prove bounds on the sensitivity of the posterior to the data, which delivers a measure of robustness. We also show how to use posterior sampling to provide differentially private responses to queries, within a decision-theoretic framework. Finally, we provide bounds on the utility of answers to queries and on the ability of an adversary to distinguish between data sets. The latter are complemented by a novel use of Le Cam’s method to obtain lower bounds on distinguishability. Our results hold for arbitrary metrics, including those for the common definition of differential privacy. For specific choices of the metric, we give a number of examples satisfying our assumptions"
+  },
+  {
+    "name": "Near-Optimal Blacklisting",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/blacklisting.pdf",
+    "authors": "C. Dimitrakakis, A. Mitrokotsa",
+    "journal": "Computers & Security, Elsevier, Vol. 64, pages 110-121, doi: 10.1016/j.cose.2015.06.010, January 2017..",
+    "abstract": "Many applications involve agents sharing a resource, such as networks or services. When agents are honest, the system functions well and there is a net profit. Unfortunately, some agents may be malicious, but it may be hard to detect them. We consider the decision making problem of how to permanently blacklist agents, in order to maximise expected profit. The problem of efficiently deciding which nodes to permanently blacklist has various applications ranging from efficient intrusion response, network management, shutting down malware infected hosts in an internal network and efficient distribution of services in a network. In this paper, we propose an approach to efficiently perform this blacklisting while minimising the cost of the service provider. Although our approach is quite general and could be applied to all the previously mentioned applications, to ease understanding we consider the problem in which an Internet service provider (ISP) needs to decide whether or not to blacklist a possibly misbehaving node.This is not trivial, as blacklisting may erroneously expel honest nodes (agents). Conversely, while we gain information by allowing a node to remain, we may incur a cost due to malicious behaviour. We present an efficient algorithm (HIPER) for making nearoptimal decisions for this problem. Additionally, we derive three algorithms by reducing the problem to a Markov decision process (MDP). Theoretically, we show that HIPER is nearoptimal. Experimentally, its performance is close to that of the full MDP solution, when the (stronger) requirements of the latter are met."
+  },
+  {
+    "name": "Grouping-Proof-Distance-Bounding Protocols: Keep all your friends close.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/GPDB.pdf",
+    "authors": "C. Karlsson, A. Mitrokotsa",
+    "journal": "IEEE Communications Letters, 20(7):1365-1368, doi: 10.1109/LCOMM.2016.2562618, July 2016.",
+    "abstract": "The use of wireless communications has had tremendous expansion and has led to the development of wearable devices with limited resources. Often, to gain access to services/places, proving the physical proximity of a single device, may not be enough. Multiple wearable devices linked to function as a team may provide stronger guarantees on accurate authentication. Although distance-bounding (DB) protocols provide a reliable way to prove the physical proximity of a device and grouping-proof (GP) protocols can be employed to prove the presence of multiple provers, proving that multiple devices are present and in close proximity to a verifier is more challenging. In this letter, we introduce a new concept that extends traditional DB protocols to a multi-prover setting and we propose the first GPDB protocol that provides not only a proof of the presence of multiple provers at the same time but also assurance regarding the physical proximity of the provers, requiring limited computational effort. Furthermore, we discuss the effectiveness of this protocol, considering the main threats in DB and GP protocols"
+  },
+  {
+    "name": "Using Distance-Bounding Protocols to Securely Verify the Proximity of Two-Hop Neighbours",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/twoHop.pdf",
+    "authors": "E. Pagnin, G. Hancke, A. Mitrokotsa",
+    "journal": "IEEE Communications Letters, 19(7):1173-1176, doi: 10.1109/LCOMM.2015.2434373. July 2015.",
+    "abstract": "—Distance-bounding protocols allow devices to cryptographically verify the physical proximity of two parties and is a prominent secure neighbour detection method. We describe how existing distance-bounding protocols could be modified to verify the proximity of both next-hop and two-hop neighbours. This approach allows a node to verify that another node is a physical next-hop neighbour, and also detects legitimate neighbours who make dishonest claims as to who their neighbours are. This approach could prevent dishonest neighbours from hoarding traffic as the result of advertising false two-hop routes."
+  },
+  {
+    "name": "Distance Bounding Protocols: Are you Close Enough?",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/IEEESecPriv15.pdf",
+    "authors": "C. Dimitrakakis, A. Mitrokotsa",
+    "journal": "IEEE Security & Privacy, 13(4):47-51, July/August 2015.",
+    "abstract": "Distance-bounding protocols can offer protection against attacks on access control systems that require users to both verify their credentials and prove their location. However, tradeoffs among accuracy, cost, and privacy are necessary."
+  },
+  {
+    "name": "Expected loss analysis for authentication in constrained channels.",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/JCS521.pdf",
+    "authors": "C. Dimitrakakis, A. Mitrokotsa, S. Vaudenay",
+    "journal": "International Journal of Medical Informatics, 80(1): 13-24, January 2011. doi: 10.1016/j.ijmedinf.2010. 10.008.",
+    "abstract": "We derive bounds on the expected loss for authentication protocols in channels which are constrained due to noisy conditions and communication costs. This i s moti vated by a number of authentication protocols, where at least some part of the authentication i s performed during a phase, lasting n rounds, with no error correction. This requires assigning an acceptable threshold for the number of detected errors and taking into account the cost o f incorrect authentication and of communication. This paper describes a frame w ork enabling a n expected loss analysis for all the protocols in this family . Computationally simple methods to obtain nearly optimal v alues for the threshold, as well as for the number o f rounds are suggested and upper bounds on the expected loss, holding uniformly , are gi v en. These bounds are tight, a s shown by a matching l o wer bound. Finally , a method to adapti v ely select both the number o f rounds and the threshold i s proposed for a certain class o f protocols."
+  },
+  {
+    "name": "Practical & Provably Secure Distance Bounding",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/JCS518.pdf",
+    "bibtexLink": "https://www.cse.chalmers.se/~aikmitr/bibfiles/JoCS15.bib",
+    "authors": "I. Boureanu, A. Mitrokotsa, S. Vaudenay",
+    "journal": "Journal of Computer Security, 23(2):229-257 doi: 10.3233/JCS-140518, 2015."
+  },
+  {
+    "name": "Location Leakage in Distance Bounding: Why Location Privacy Does not Work",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/ComputersSecurity.pdf",
+    "bibtexLink": "https://www.cse.chalmers.se/~aikmitr/bibfiles/ComputersSecurity.bib",
+    "authors": "A. Mitrokotsa, C. Onete, S. Vaudenay",
+    "journal": "Computers & Security (Elsevier) Vol. 45, 199-209, 2014. doi: 10.1016/j.cose.2014.06.001."
+  },
+  {
+    "name": "On selecting the nonce length in distance-bounding protocols",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/Wilkes.pdf",
+    "bibtexLink": "http://www.cse.chalmers.se/~aikmitr/bibfiles/ComputerJournal13.bib",
+    "authors": "A. Mitrokotsa, P. Peris-Lopez, C. Dimitrakakis, S. Vaudenay",
+    "journal": "The Computer Journal (Oxford University Press), Special Issue on Advanced Semantic and Social Multimedia Technologies for Future Computing Environment. 2013. doi: 10.1093/comjnl/bxt033"
+  },
+  {
+    "name": "Evaluation of Classification Algorithms for Intrusion Detection in MANETs",
+    "paperLink": "https://infoscience.epfl.ch/record/181517/files/KnowledgeMitrokotsa2012.pdf",
+    "authors": "S. Pastrana, A. Mitrokotsa, A. Orfila, P. Peris-Lopez",
+    "journal": "Knowledge-Based Systems, Elsevier, 36:217-225, December 2012. doi: 10.1016/j.knosys.2012.06.016."
+  },
+  {
+    "name": "Intrusion Detection in MANET using Classification Algorithms: The Effects of Cost and Model Selection",
+    "authors": "A. Mitrokotsa, C. Dimitrakakis",
+    "journal": "Ad hoc Networks, Elsevier, 11(11):226-237, January 2013. doi: 10.1016/j.adhoc.2012.05.006",
+    "abstract": "Ad hoc networks have received great attention in recent years,  mainly  due to their important advantages and their growing demand. Nevertheless,  ad  hoc networks present  many  inherent  vulnerabilities and demand  efficient security  mechanisms  in order to be  safeguarded. An efficient intrusion  detection approach combined with an authenticated intrusion response can act  as an  effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated  intrusion response engine based on an innovative  key  agreement protocol. In  particular, we exploit  information visualization and machine learning techniques in order to achieve efficient intrusion detection  and we  propose an effective intrusion response engine that is based on secure  communication principles in order to  mitigate the impacts of  possible  attacks. The performance of the proposed  model is  evaluated under different  traffic conditions and mobility patterns."
+  },
+  {
+    "name": "A Comprehensive RFID Solution to Enhance Inpatient Medication Safety",
+    "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJMI.pdf",
+    "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJMI2011.bib",
+    "authors": "P. Peris-Lopez, A. Orfila, A. Mitrokotsa, J.C.A. van der Lubbe",
+    "journal": "International Journal of Medical Informatics, 80(1): 13-24, January 2011. doi: 10.1016/j.ijmedinf.2010. 10.008.",
+    "abstract": "Errors involving medication administration can be costly, both in financial and in human terms. Indeed, there is much potential for errors due to the complexity of the medication administration process. Nurses are often singled out as the only responsible of these errors because they are in charge of drug administration. Nevertheless, the interventions of every actor involved in the process and the system design itself contribute to errors (Wakefield et al. (1998) [23]). Proper inpatient medication safety systems can help to reduce such errors in hospitals. In this paper, we review in depth two recent proposals (Chien et al. (2010) [7]; HuangandKu(2009)[12])thatpursuetheaforementionedobjective.Unfortunately,theyfail in their attempt mainly due to their security faults but interesting ideas can be drawn from both. These security faults refer to impersonation and replay attacks that could produce the generation of a forged proof stating that certain medication was administered to an inpatient when it was not. We propose a leading-edge solution to enhance inpatient medication safety based on RFID technology that overcomes these weaknesses. Our solution, named Inpatient Safety RFID system (IS-RFID), takes into account the Information Technology (IT) infrastructure of a hospital and covers every phase of the drug administration process. From a practical perspective, our system can be easily integrated within hospital IT infrastructures, has a moderate cost, is very ease to use and deals with security aspects as a key point."
+  },
+  {
+    "name": "Reid et al.'s Distance Bounding Protocol and Mafia Fraud Attacks over Noisy Channels",
+    "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/ComLet.pdf",
+    "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/ComLet2010.bib",
+    "authors": "A. Mitrokotsa, C. Dimitrakakis, P. Peris-Lopez, J.C. Hernandez-Castro",
+    "journal": "IEEE Communications Letters, February 2010, 14 (2):121-123",
+    "abstract": "Distance bounding protocols are an effective countermeasure against relay attacks including distance fraud, maa fraud and terrorist fraud attacks. Reid et al. proposed the rst symmetric key distance bounding protocol against maa and terrorist fraud attacks [1]. However, [2] claims that this is only achieved with a probability of success for maa fraud, rather than the theoretical value of (for rounds) achieved by distance bounding protocols without a nal signature. We prove that the maa fraud attack success using the Reid et al. protocol is bounded by and reduces as noise increases. The proof can be of further interest as it is the rst–to the best of our knowledge –detailed analysis of the effects of communication errors on the security of a distance bounding protocol."
+  },
+  {
+    "name": "Protection of an Intrusion Detection Engine with Watermarking in Ad Hoc Networks",
+    "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJNS.pdf",
+    "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJNS2010.bib",
+    "authors": "A. Mitrokotsa, N. Komninos, and C. Douligeris",
+    "journal": "International Journal of Network Security, 10(2): 93-106, March 2010",
+    "abstract": "Ad hoc networks have received great attention in recent years, mainly due to their important advantages and their growing demand. Nevertheless, ad hoc networks present many inherent vulnerabilities and demand efficient security mechanisms in order to be safeguarded. An efficient intrusion detection approach combined with an authenticated intrusion response can act as an effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated intrusion response engine based on an innovative key agreement protocol. In particular, we exploit information visualization and machine learning techniques in order to achieve efficient intrusion detection and we propose an effective intrusion response engine that is based on secure communication principles in order to mitigate the impacts of possible attacks. The performance of the proposed model is evaluated under different traffic conditions and mobility patterns. "
+  },
+  {
+    "name": "Classifying RFID Attacks and Defenses",
+    "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/ISF2009.pdf",
+    "reference": "https://lasecwww.epfl.ch/~katerina/bibfiles/ISF2010.bib",
+    "authors": "A. Mitrokotsa, M.R. Rieback, and A.S. Tanenbaum",
+    "journal": "Special Issue on Advances in RFID Technology, Information Systems Frontiers, Springer, Springer Science & Business Media, LLC 2009, DOI 10.1007/s10796-009-9210-z., July 2009",
+    "abstract": "RFID (Radio Frequency Identification) systems are one of the most pervasive computing technologies with technical potential and profitable opportunities in a diverse area of applications. Among their advantages is included their low cost and their broad applicability. However, they also present a number of inherent vulnerabilities. This paper develops a structural methodology for risks that RFID networks face by developing a classification of RFID attacks, presenting their important features, and discussing possible countermeasures. The goal of the paper is to categorize the existing weaknesses of RFID communication so that a better understanding of RFID attacks can be achieved and subsequently more efficient and effective algorithms, techniques and procedures to combat these attacks may be developed."
+  },
+  {
+    "name": "Intrusion Detection and Response in Ad hoc Networks",
+    "paperLink": "http://www.cse.chalmers.se/~aikmitr/papers/IJCR.pdf",
+    "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/IJCR2007.bib",
+    "authors": "A. Mitrokotsa, N. Komninos, C. Douligeris",
+    "journal": "International Journal on Computer Research, Special Issue on Advances in Ad Hoc Network Security, Nova Science Publishing Inc., 15(1):23-55, 2007",
+    "abstract": " Ad hoc networks have received great attention in recent years,  mainly  due to their important advantages and their growing demand. Nevertheless,  ad  hoc networks present  many  inherent  vulnerabilities and demand  efficient security  mechanisms  in order to be  safeguarded. An efficient intrusion  detection approach combined with an authenticated intrusion response can act  as an  effective line of defense in ad hoc networks. In this paper, we present an intrusion detection engine based on neural networks and an authenticated  intrusion response engine based on an innovative  key  agreement protocol. In  particular, we exploit  information visualization and machine learning techniques in order to achieve efficient intrusion detection  and we  propose an effective intrusion response engine that is based on secure  communication principles in order to  mitigate the impacts of  possible  attacks. The performance of the proposed  model is  evaluated under different  traffic conditions and mobility patterns. "
+  },
+  {
+    "name": "DDoS Attacks and Defense Mechanisms: Classification and State-of-the-art",
+    "paperLink": "https://www.cse.chalmers.se/~aikmitr/papers/COMNET.pdf",
+    "reference": "http://www.cse.chalmers.se/~aikmitr/bibfiles/comnet.bib",
+    "authors": "A. Mitrokotsa and C. Douligeris",
+    "journal": "Computer Networks, 44(5):643-666, 5 April 2004",
+    "abstract": "Denial of Service (DoS) attacks constitute one of the major threats and among the hardest security problems in todays Internet. Of particular concern are Distributed Denial of Service (DDoS) attacks, whose impact can be proportionally severe. With little or no advance warning, a DDoS attack can easily exhaust the computing and communication resources of its victim within a short period of time. Because of the seriousness of the problem many defense mechanisms have been proposed to combat these attacks. This paper presents a structural approach to the DDoS problem by developing a classification of DDoS attacks and DDoS defense mechanisms. Furthermore, important features of each attack and defense system category are described and advantages and disadvantages of each proposed scheme are outlined. The goal of the paper is to place some order into the existing attack and defense mechanisms, so that a better understanding of DDoS attacks can be achieved and subsequently more efficient and effective algorithms, techniques and procedures to combat these attacks may be developed."
+  }
 ]
